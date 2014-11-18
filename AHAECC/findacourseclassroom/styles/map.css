@@ -1,0 +1,1377 @@
+/* @override http://localhost:9000/styles/map.css */
+/*Added important tags and padding tags*/
+.mb0{
+    margin-bottom: 0px !important;
+}
+.mt0{
+    margin-top: 0px !important;
+}
+.ml0{
+    margin-left: 0px !important;
+}
+.mr0{
+    margin-right: 0px !important;
+}
+.pb0{
+    padding-bottom: 0px !important;
+}
+.pt0{
+    padding-top: 0px !important;
+}
+.pl0{
+    padding-left: 0px !important;
+}
+.pr0{
+    padding-right: 0px !important;
+}
+.scrollable {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch;
+}
+.grey, .gray{
+    color:#827A71;
+}
+.aha-red{
+   color:#bc0009;
+}
+#store_locator {
+    font-family: Helvetica;
+}#store_locator button, #store_locator input[type=text], #store_locator select  {
+     font-size: 1em;
+ }
+ /*added this for new jquery date inputs 10-13-14*/
+.filters li input[type="text"] {
+    width: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+/*added additional selectors for new linkable results*/
+#store_locator ul, #store_locator ul li,#store_locator a ul, #store_locator a ul li, #store_locator ol, #store_locator ol li {
+    margin-bottom: 0;
+    margin-left: 0px;
+    font-size: 1em;
+    line-height: 1.1em;
+    font-weight: normal;
+}
+#store_locator ul.address {
+    margin-bottom:8px;
+}
+#findMe {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    z-index: 1;
+    display: none;
+    width: 53px;
+    height: 44px;
+    padding: 0;
+    border: 0;
+    text-indent: -9999px;
+    cursor: pointer;
+    background: url('../images/mobile-geo-bg.png') no-repeat right top;
+    -webkit-appearance: none;
+}
+
+#drawer {
+    display: none;
+}
+
+#fetch_waiting {
+    background: #fff url(../images/loading_bar.gif) no-repeat 50% 2em;
+    position: absolute;
+    top: 70px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#directions_waiting {
+    background: #fff url(../images/loading_bar.gif) no-repeat 50% 2em;
+    position: absolute;
+    top: 195px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+html.js #drawer {
+    display: block;
+    position: absolute;
+    top: -100%;
+    z-index: 2;
+    height: 100%;
+    width: 100%;
+    background: #fff;
+    box-shadow: 3px 0 3px -3px #dadada;
+    transition: top 400ms cubic-bezier(0.510, 0.240, 0.080, 0.790);
+}
+
+.drawerOpen {
+    top: 0 !important;
+}
+
+.hide {
+    display: none;
+}
+
+/*#search-stores, #directions, #findMe {*/
+    /*display: none;*/
+/*}*/
+
+html.js #directions {
+    display: none;
+}
+
+html.js #search-stores, html.js #map {
+    display: block;
+}
+.ui-datepicker-calendar .ui-state-default,.ui-datepicker-calendar .ui-widget-content .ui-state-default {
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid #d3d3d3;
+    color: #555;
+    font-size: 0.7em;
+    font-weight: normal;
+    padding: 0.4em 0.5em 0.4em 0.2em;
+
+}
+
+#ui-datepicker-div.ui-widget-content {
+    background: url("../images/jqui/ui-bg_flat_75_ffffff_40x100.png") repeat-x scroll 50% 50% #fff;
+    border: 1px solid #d3d3d3;
+    color: #222;
+    padding: 0.5em;
+
+}
+.ui-datepicker .ui-datepicker-title {
+    font-family: arial,sans-serif;
+    font-weight: lighter;
+    line-height: 1.8em;
+    margin: 0 2.3em;
+    text-align: center;
+}
+.ui-datepicker th {
+    border: 0 none;
+    font-size: 0.8em;
+    font-weight: lighter;
+    padding: 0.7em 0.3em;
+    text-align: center;
+}
+#store-locator-nav-wrap #store-locator-nav, #store-locator-nav-wrap #m_utility {
+    margin-top: 29px;
+}
+#store-locator-nav-wrap #m_utility {
+    float: right;
+    margin-top: 29px;
+}
+
+#store-locator-nav-wrap #m_utility li#m_signin, #store-locator-nav-wrap #m_utility li#m_nav {
+    float: left;
+}
+
+#store-locator-nav-wrap #m_utility li#m_signin {
+    border-left: 1px solid #edeeee;
+}
+
+#store-locator-nav-wrap #m_utility li#m_nav {
+    position: relative;
+    width: 44px;
+    height: 44px;
+}
+
+#search-stores, #directions {
+    height: 100%;
+    overflow: auto;
+}
+
+#searchForm.searchForm {
+    padding: 20px 25px 0px 30px !important; /*added 0 padding for bottom*/
+    border-bottom: 0px solid #efeeee;
+}
+
+
+
+
+#searchForm input[type=text] {
+    float: left;
+    width: 81.55%;
+}
+
+
+#refine {
+    position: relative;
+}
+.result-container {
+    border-top: 2px solid #edeeee;
+}
+/*a.location-link {*/
+    /*height: 100%;*/
+    /*position: absolute;*/
+    /*width: 100%;*/
+    /*left: 0;*/
+/*}*/
+li.result {
+    position: relative;
+    border-top: 1px solid #efeeee;
+    margin: 0;
+    padding: 10px 5% 10px 5%;
+    cursor: pointer;
+}
+#store_locator a{
+    text-decoration: none !important;
+}
+#store_locator a:focus, #store_locator a:hover,#store_locator a:active{
+    text-decoration: none !important;
+    background-color: transparent;
+    color: #bc0009 ;
+
+}
+
+
+li.result:hover {
+    background: #f7f7f7;
+}
+li.result:first-child {
+    border-top: none;
+}
+li.result .store-name {
+    width: 210px;
+    color: #333;
+    font-size: 1.143em;
+    font-weight: bold;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-bottom: 0;
+    line-height: 1.7em;
+}
+a.moreLink {
+    z-index: 90000;
+    margin-left: 20px;
+}
+li.result ul {
+    padding: 0;
+}
+
+li.result ul li {
+    color: #827A71;
+    font-size: .857em;
+    line-height: 1.429em;
+}
+li.result .links a{font-weight: normal;
+line-height: 1.2em;}
+
+li.result a.classDetails {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -15px;
+    display: block;
+    height: 30px;
+    width: 55px;
+    background-image: url('../images/details-atlas.png');
+    background-position: left center;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+}
+
+li.result a:hover {
+    background-position: -170px center;
+    background-color: transparent !important;
+}
+
+
+
+
+
+#directionsForm {
+    padding: 20px 30px 15px 30px;
+    border-bottom: 2px solid #efeeee;
+}
+
+#directionsForm ol.form {
+    width: auto;
+}
+
+#directionsForm ol.form li {
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+#directionsForm ol.form li.origin, #directionsForm ol.form li.destination {
+    width: 228px;
+}
+.error {
+    margin: 0;
+    line-height: 1em;
+    margin-bottom: 10px !important; /*added important tag 10/14/14*/
+    border: 1px solid #bc0009;
+    padding: 10px;
+    background: rgba(188, 0, 9, 0.1);
+}
+#directionsForm ol.form li.error {
+    padding: 4px;
+}
+
+#directionsForm ol.form li ul#travel-modes {
+    padding: 0;
+    overflow: hidden;
+}
+
+#directionsForm ol.form ul#travel-modes li {
+    float: left;
+    margin-bottom: 0;
+}
+
+ul#travel-modes li label, #directionsForm ol.form li.swap-locations-wrapper button#swap-locations {
+    background-image: url('../images/store_locator/sl-directions-form-atlas.png');
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+ul#travel-modes li label {
+    cursor: pointer;
+    display: block;
+    height: 28px;
+    width: 40px;
+    background-color: #d0d0d0;
+    color: #fff;
+    text-indent: -9999px;
+    margin-right: 10px;
+}
+
+ul#travel-modes li.transit label {
+    background-position: -40px top;
+}
+
+ul#travel-modes li.walking label {
+    background-position: -80px top;
+}
+
+ul#travel-modes li.bicycling label {
+    background-position: -120px top;
+}
+
+ul#travel-modes li input[type="radio"] {
+    visibility: hidden;
+    position: absolute;
+}
+
+ul#travel-modes li input[type="radio"]:checked + label {
+    background-color: #bc0009;
+}
+
+#directionsForm ol.form li.swap-locations-wrapper {
+    height: 0;
+    position: relative;
+}
+
+#directionsForm ol.form li.swap-locations-wrapper button#swap-locations {
+    position: absolute;
+    left: 237px;
+    top: -25px;
+    width: 20px;
+    height: 40px;
+    text-indent: -9999px;
+    background-position: -162px top;
+}
+
+#directionsForm ol.form li div.directions-input input[type=text] {
+    width: 182px;
+}
+
+#directionsForm ol.form li div.directions-input label {
+    color: #fff;
+    background: #000;
+    display: block;
+    width: 30px;
+    float: left;
+    text-align: center;
+    line-height: 2.072em;
+}
+
+#directionsForm ol.form li button#getDirections {
+    margin-top: 5px;
+}
+
+#routes {
+    position: relative;
+}
+#store-details {
+    position: relative;
+}
+
+#store-details h2 {
+    font-size: 1.143em;
+    font-weight: bold;
+}
+/*Modified this rule 10/15/14*/
+#store-details h3 {
+    font-size: 1.5em;
+    font-weight: normal;
+    margin: .25em 0 .25em;
+}
+
+#store-details a.expandable {
+    font-size: .857em;
+    display: block;
+    /*padding: 0; commented this out 10/15/14*/
+
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+a.expandable.collapsed .glyphicon-icon:before {
+    content: "\2b" !important;
+}
+a.expandable .glyphicon-icon:before {
+    content: "\2212" !important;
+}
+
+
+#store-details .close_overlay {
+    position: absolute;
+    top: 2;
+right: 17px;    cursor: pointer;
+    background-position: left -60px;
+    padding: 10px;
+}
+
+#store-details .close_overlay:hover {
+    background-position: right -60px;
+}
+
+#detail-header {
+    background-color: #edeeee;
+    padding: 8px 0 8px 30px;
+}
+
+#detail-header h3 {
+    margin: 0;
+}
+
+#store-address {
+    padding: 15px 60px 15px 30px;
+    border-bottom: 2px solid #efeeee;
+}
+
+#store-address ul li {
+    color: #827A71;
+    font-size: .857em;
+    line-height: 1.429em;
+}
+/*ADDED .details-toggle class to next 2 rules 10/15/14*/
+#store-hours, .details-toggle {
+    /*padding: 15px 30px; commented this out 10/15/14 */
+    border-bottom: 2px solid #efeeee;
+}
+
+#store-hours #show-schedule, .details-toggle {
+    /*margin: 0 -30px; commented this out 10/15/14 */
+    font-size: .857em;
+}
+/*ADDED these RULE 10/15/14*/
+.details-toggle .panel-heading{
+    padding: 10px 30px;
+}
+.details-toggle .shim{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.details-toggle a.expandable   h3 span.glyphicon-icon {
+    font-size: 1.3em;
+}
+a.sf-button.transparent-dark:hover {
+    background: #bc0009 !important;
+    border-color: #fff !important;
+    color:#fff !important;
+}
+/*end added rules*/
+.gm-style-iw div {
+    overflow:hidden !important;
+}
+
+li.result.sf-animation.sf-animate:first-child {
+    border-top: 1px solid #eee;
+}
+#searchForm h2.spb-heading {
+    margin-top: 0px;
+}
+a.sf-button.transparent-dark{
+    color:#bc0009;
+
+}
+.gm-style div, .gm-style span, .gm-style label, .gm-style a {
+    font-family: helvetica;
+    font-size: 100%;
+}
+.infoBox
+#store-infowindow h3 a {
+
+    display: block;
+    min-height: 97px;
+    margin: -15px;
+    padding: 15px;
+    padding-bottom: 0px;
+}
+#store-infowindow h2 {
+    font-size: 1.143em;
+    margin: 0 0 .2em;
+    line-height: 1.5em;
+}
+#store-infowindow h4 {
+    font-size: 12px;
+    color: #999;
+    margin: 2px 0;
+}
+
+#store-infowindow ul li {
+    color: #827A71;
+    font-size: .857em;
+    line-height: 1.429em;
+}
+
+.gm-style div, .gm-style span, .gm-style label, .gm-style a {
+    font-family: helvetica;
+    font-size: 100%;
+}
+
+#store_locator li p.error {
+    display: none;
+}
+#show-schedule li ul li{
+    margin-bottom:5px;
+}
+#show-schedule .panel-default:nth-child(even) > .panel-heading{
+    background-color: transparent;
+}
+#show-schedule{
+    border-top: 1px solid #efeeee;  /*changed this color 10/15/14*/
+}   #store-infowindow .button {
+        margin: 10px 10px 5px 0;
+    }
+#store-infowindow .telephone, #store-infowindow .button {
+    display: block;
+}
+/* @override http://localhost:9000/styles/main.css */
+
+/* Space out content a bit */
+
+body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+div#store_locator input {
+    background: transparent;
+}
+
+a:hover {
+    background-color: transparent;
+    color: #888;
+}
+
+a:active {
+    background-color: transparent;
+}
+
+input[type="submit"] {
+    color: #fff;
+    background-color: #ed1b24!important;
+    margin: 0px 10px 0px 0;
+}
+
+input[type="submit"]:hover {
+    background-color: #5d5d5d!important;
+    color: #ffffff;
+}
+
+.panel-group .panel + .panel {
+    margin-top: 0px;
+}
+
+#logo {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    top: 5px;
+    width: 102px;
+    height: 62px;
+    background: no-repeat;
+    background-image: url(../images/logo.png);
+    background-size: contain;
+    background-color: #f7f7f7;
+    float: left;
+    text-indent: -9999px;
+}
+
+#show-schedule a:visited {
+    color: #bc0009 !important;
+}
+
+#show-schedule a:hover,#show-schedule a:focus,#show-schedule a:active {
+    color: #bc0009 !important;
+}
+
+select#courseId.form-control {
+    max-width: 100%;
+    width: 305px !important;
+    display: block;
+
+}
+#courseId option {
+    width: 243px !important;
+}
+li:nth-child(even) .panel-default .panel-heading {
+    border-top: none;
+    background-color: transparent;
+}
+
+#store_locator ul.filters li {
+    margin-bottom: .8em;
+}
+#store_locator ul.filters li:last-child {
+    margin-bottom: 0em;
+}
+#locationDetails .toggle-content {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 5px;
+}
+
+#locationDetails .panel-body.toggle-content {
+    margin-bottom: 0px;
+}
+
+#slider .ui-state-default,#slider  .ui-widget-content .ui-state-default {
+    border: none;
+    background-color: #bc0009;
+    font-weight: normal;
+    border-radius: 50% !important;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border: 1px solid #fff;
+    padding: 10px;
+    margin-top: -6px;
+    box-shadow: none;
+    outline: none;
+    background-color: #fff;
+    border-color: #ed1b24;
+}
+
+.ui-widget-content .ui-state-default:active {
+    box-shadow: none;
+    outline: none;
+    background-color: #ed1b24;
+    border: 2px solid #fff;
+    box-shadow: 0px 0px 6px 2px rgb(223, 223, 223);
+}
+
+.ui-slider-horizontal {
+    height: 1px;
+    border-color: #ed1b24;
+    position: relative;
+    outline: none;
+    box-shadow: none;
+    top: 5px;
+    margin-bottom: 17px;
+}
+div#slider {
+    max-width: 90%;
+    margin: 18px auto;
+    height: 0px;
+}
+.widget_search .form {
+    margin-bottom: 1em;
+}
+
+input#distance {
+    margin-top: 0px;
+    padding-top: 1px;
+    padding-bottom: 10px;
+}
+
+input[type="text"]:focus {
+    border-color: #ed1b24!important;
+}
+
+#searchResults ul {
+    margin-left: 0px;
+}
+
+.panel-group .panel {
+    border-radius: 0px
+}
+
+.courses h4 {
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 12px;
+}
+.courses p {
+    line-height: 1.1em;
+    margin-top: 3px;
+}
+
+li.result .store-name {
+    margin-top: 0px;
+}
+
+li.searchField {
+    position: relative;
+}
+.searchField.form-group{
+    position: relative;
+}
+.searchField span.input-group-addon.glyphicon.glyphicon-search {
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    right: 6%;
+    top: 29px;
+}
+
+#searchForm .widget_search {
+    padding-bottom: 0px;
+    position: relative;
+}
+
+button, input, select {
+    padding: 4px 6px;
+    border: 1px solid #edeeee;
+    color: #000;
+    vertical-align: baseline;
+}
+
+.searchForm {
+    padding: 20px 25px 20px 30px;
+    border-bottom: none;
+}
+
+#searchForm input[type=text] {
+    float: left;
+    width: 100%;
+    padding-right: 33px;
+    margin: 5px auto 15px;
+    display: block;
+}
+
+#distance {
+    border: none;
+}
+
+.panel.panel-default {
+    border-top: 0px;
+}
+/*ADDED .details-toggle 10/15/14*/
+#store-hours, .details-toggle {
+    /*padding: 0px 30px; commented this out 10/15/14*/
+    border-bottom: 1px solid #efeeee;
+}
+
+#store-hours, .details-toggle {
+    padding-bottom: 0px;
+}
+
+.result-container {
+    border-top: none;
+}
+
+#refine .panel-heading {
+    background-color: transparent;
+    border-top: 1px solid #ddd;
+    color: #bc0009;
+}
+
+#show-schedule ul.col-xs-6 {
+    color: #999;
+    font-weight: 400;
+}
+
+#filterToggle span.glyphicon {
+    padding: .7em;
+    background-color: #bc0009;
+    color: #fff;
+    font-size: .5em;
+    text-align: center;
+    padding-left: .7em;
+    padding-right: 1.6em;
+    padding-bottom: .8em;
+    width: 2.3em;
+    text-align: center;
+}
+#filterToggle span.glyphicon.glyphicon-minus {
+    padding-left: .6em;
+    padding-right: 1.5em !important;
+}
+a#filterToggle {
+    position: relative;
+    bottom: 3;
+}
+
+#store-details h2 {
+    font-size: 1.143em;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 1em;
+}
+
+#store-address h2 span {
+    font-size: .8em;
+    color: #999;
+}
+
+#store-details #store-address ul {
+    padding: 0px 0px 10px;
+}
+
+#store-details #store-address {
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+#store-locator-nav-wrap #store-locator-nav li a {
+    display: block;
+    width: 44px;
+    height: 44px;
+    background-image: url('../images/mobile-nav-atlas.png');
+    background-color: #f7f7f7;
+    background-repeat: no-repeat;
+    background-position: top left;
+    text-indent: -9999px;
+    margin: 0;
+    padding: 0;
+}
+
+#store-details a.sf-button.standard.transparent-dark.stroke-to-fill:hover , #store-infowindow a.classDetails.sf-button.standard.transparent-dark.stroke-to-fill:hover {
+    background-color: #bc0009;
+    color: #fff !important;
+    border-color: #fff;
+}
+
+a.sf-button {
+    margin: 15px auto 10px;
+}
+
+/*
+  @@ Pagination
+*/
+
+.pages {
+    margin: 5px 0;
+    text-align: center;
+}
+
+.pages a {
+    font-size: 12px;
+    cursor: pointer;
+    margin: 0 1%;
+    color: #333;
+    padding: 4px 1% 3px 1% ;
+}
+
+.pages a:hover {
+    background-color: #222;
+    color: #fff;
+}
+
+.pages a.jp-previous {
+    margin-right: 15px;
+}
+
+.pages a.jp-next {
+    margin-left: 15px;
+}
+
+.pages a.jp-current, a.jp-current:hover {
+    color: #ed4e2a;
+    font-weight: bold;
+}
+
+.pages a.jp-disabled, a.jp-disabled:hover {
+    color: #bbb;
+}
+
+.pages a.jp-current, a.jp-current:hover,
+.pages a.jp-disabled, a.jp-disabled:hover {
+    cursor: default;
+    background: none;
+}
+
+#store-infowindow .button.row {
+    position: relative;
+    left: 6px;
+}
+
+#store-infowindow span.label.label-default.pull-right {
+    font-size: 8px;
+    text-align: center;
+
+    margin-top: 1px;
+}
+#store-infowindow .label{
+    padding-bottom: .2em;
+    padding-top: .4em;
+}
+.result .label{
+    padding-bottom: .2em;
+    padding-top: .3em;
+}
+#store-infowindow .label.label-aha-tc, .result .label.label-aha-tc {
+    color: #bc0009;
+    border: 1px solid #999;
+}
+a#infoWinFullSchedule {
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+    margin-left: 10%;
+    z-index: 200000;
+}
+
+#store-details a.sf-button.standard.transparent-dark.stroke-to-fill {
+    margin-left: 50%;
+    position: relative;
+    right: 30%;
+    margin-top: 20px;
+    white-space: nowrap;
+}
+
+select#courseId:focus {
+    border: 1px solid transparent;
+}
+
+.pages span {
+    margin: 0 5px;
+}
+
+.region img {
+    max-width: inherit;
+}
+
+/* Responsive: Portrait tablets and up */
+
+@media screen and (min-width: 240px) {
+    html {
+        background: #fff;
+    }
+
+    html.js .container  {
+        display: none;
+    }
+
+    #content.container {
+        display: block;
+    }
+
+
+    html.js #store_locator, html.js #map {
+        display: block;
+        position: absolute !important;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        height: auto;
+    }
+
+    #store_locator {
+        margin-top: 75px;
+    }
+
+
+    html.js #store-locator-nav-wrap {
+        position: fixed;
+        top: 0;
+        z-index: 1000;
+        width: 100%;
+        border-bottom: 2px solid #edeeee;
+        background: #f7f7f7;
+    }
+
+    #store-locator-nav-wrap #store-locator-nav {
+        background-position: -9999px -9999px;
+        background-repeat: no-repeat;
+        float: right;
+    }
+    li.result:hover {
+        background: #fff;
+    }
+
+    #store-details a.expandable:hover {
+        background-color: #edeeee;
+        color: #bc0009;
+    }
+}
+
+@media screen and (min-width: 320px) {
+    .container {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    #drawer {
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-width: 600px) {
+
+
+    html.js #store_locator {
+        border: 5px solid #edeeee;
+        margin-top: 0;
+        overflow: hidden;
+    }
+
+    html.js #store_locator, html.js #map {
+        position: relative !important;
+    }
+
+    #map, #map.drawerOpen {
+        transition: margin 400ms cubic-bezier(0.510, 0.240, 0.080, 0.790);
+    }
+
+    html.js #drawer {
+        transition: left 400ms cubic-bezier(0.510, 0.240, 0.080, 0.790);
+    }
+
+    #map.drawerOpen {
+        visibility: visible;
+        opacity: 1;
+    }
+
+
+    .infoBox #store-infowindow {
+        background-image: none !important;
+    }
+
+    #store-infowindow h3 a {
+        min-height: inherit;
+    }
+
+    #store-infowindow .button {
+        margin: 10px 10px 5px 0;
+    }
+
+    #store-infowindow .link, #store-infowindow .button {
+        display: block;
+    }
+
+    #store-infowindow .button button {
+        margin-bottom: 4px;
+    }
+
+    .infoBox #store-infowindow {
+        background-size: 18px auto;
+        background-image: url('../images/info-arrow-hirez.png');
+    }
+
+
+
+    #store-locator-nav-wrap {
+        display: none;
+    }
+
+    html.js #store-locator-nav-wrap {
+        display: block;
+        width: auto;
+    }
+
+    html.js .container {
+        display: block;
+    }
+    #store-locator-nav-wrap #store-locator-nav, #store-locator-nav-wrap #m_utility {
+        margin-top: 0;
+    }
+
+    #store-locator-nav-wrap #m_logo #logo, #store-locator-nav-wrap #store-locator-nav, #store-locator-nav-wrap #m_utility {
+        float: none;
+    }
+
+    #store-locator-nav-wrap #m_logo, #store-locator-nav-wrap #m_utility {
+        display: none;
+    }
+    html.js #store-locator-nav-wrap {
+        position: absolute;
+        right: 0;
+        z-index: 1000;
+        background: transparent;
+        font-size: inherit;
+        text-align: right;
+        border: 0;
+        -webkit-transform: rotate(-90deg);
+        -webkit-transform-origin: top right;
+        -moz-transform: rotate(-90deg);
+        -moz-transform-origin: top right;
+        -ms-transform: rotate(-90deg);
+        -ms-transform-origin: top right;
+        -o-transform: rotate(-90deg);
+        -o-transform-origin: top right;
+        -webkit-transform: rotate(-90deg);
+        transform: rotate(-90deg);
+        -webkit-transform-origin: top right;
+        transform-origin: top right;
+    }
+
+    #store-locator-nav-wrap #store-locator-nav {
+        overflow: hidden;
+        display: inline-block;
+
+        background: #edeeee;
+        background-image: url('../images/drawer-nav-closed.png');
+        background-repeat: no-repeat;
+        background-position: center 3px;
+    }
+
+    .drawerOpen #store-locator-nav-wrap #store-locator-nav {
+        background-image: url('../images/drawer-nav-open.png');
+    }
+    html.js #map {
+        height: 90%;
+        margin-top: 0;
+    }
+
+    html.js #map.drawerOpen {
+        margin-left: 320px;
+        margin-top: 0;
+    }
+
+    html.js #drawer {
+        width: 318px;
+        top: 0;
+        left: -320px;
+        border-right: 2px solid #edeeee;
+    }
+
+    #fetch_waiting {
+        top: 112px;
+    }
+
+    .drawerOpen {
+        left: 0 !important;
+    }
+
+    #m_logo, #m_signin{
+        display: none;
+    }
+
+
+
+
+
+
+    #store-details a.expandable:hover {
+        background-color: #edeeee;
+        color: #bc0009;
+    }
+
+
+    li.result:hover {
+        background: #f7f7f7;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    #store-locator-nav-wrap #store-locator-nav li a#m_map {
+
+        height: 19px;
+
+        background: transparent;
+        position: relative;
+        color:transparent;
+
+
+        height: 19px;
+        width:80px;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    html.js #map {
+        min-height: 90%;
+        /*max-height: 100%;*/
+    }
+
+    li.result {
+        padding: 10px 60px 10px 30px;
+    }
+}
+
+@media screen and (min-width: 769px) and (min-height: 400px) {
+    html.js #map {
+        min-height: 300px;
+    }
+}
+
+@media screen and (min-width: 769px) and (min-height: 640px) {
+    html.js #map {
+        height: 500px;
+    }
+}
+
+@media screen and (min-width: 769px) and (min-height: 700px) {
+    html.js #map {
+        height: 550px;
+    }
+}
+
+@media screen and (min-width: 769px) and (min-height: 740px) {
+    html.js #map {
+        height: 600px;
+    }
+}
+
+@media screen and (min-width: 769px) and (min-height: 800px) {
+    html.js #map {
+        height: 650px;
+    }
+}
+
+@media screen and (min-width: 769px) and (min-height: 840px) {
+    html.js #map {
+        height: 700px;
+    }
+}
+
+@media screen and (min-width: 769px) and (min-height: 900px) {
+    html.js #map {
+        height: 750px;
+    }
+}
+
+@media screen and (min-width: 769px) and (min-height: 940px) {
+    html.js #map {
+        height: 800px;
+    }
+}
+
+@media screen and (min-width: 769px) and (min-height: 1000px) {
+    html.js #map {
+        height: 850px;
+    }
+}
+
+@media screen and (min-width: 769px) and (min-height: 1040px) {
+    html.js #map {
+        height: 900px;
+    }
+}
+
+@media screen and (min-width: 769px) and (min-height: 1100px) {
+    html.js #map {
+        height: 935px;
+    }
+}
+@media screen and (min-width: 1280px) and (min-height: 640px) {
+    html.js #map {
+        height: 90%;
+    }
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi) {
+    span.icon  {
+        background-size: 60px auto;
+        background-image: url('../images/icon-atlas-hirez.png');
+    }
+    #store-locator-nav-wrap #store-locator-nav, .drawerOpen #store-locator-nav-wrap #store-locator-nav {
+        background-size: 12px auto;
+    }
+
+    #store-locator-nav-wrap #store-locator-nav {
+        background-image: url('../images/drawer-nav-closed-hirez.png');
+    }
+
+    .drawerOpen #store-locator-nav-wrap #store-locator-nav {
+        background-image: url('../images/drawer-nav-open-hirez.png');
+    }
+
+    li.result a {
+        background-size: 200px auto;
+        background-image: url('../images/details-atlas-hirez.png');
+    }
+
+    #store-details a.expandable {
+        background-size: 15px auto;
+    }
+
+
+    ul#travel-modes li label, #directionsForm ol.form li.swap-locations-wrapper button#swap-locations {
+        background-size: 180px auto;
+    }
+
+    ul#travel-modes li.driving label {
+        background-position: left bottom;
+    }
+
+    ul#travel-modes li.transit label {
+        background-position: -40px bottom;
+    }
+
+    ul#travel-modes li.walking label {
+        background-position: -80px bottom;
+    }
+
+    ul#travel-modes li.bicycling label {
+        background-position: -120px bottom;
+    }
+
+
+    #findMe {
+        background-size: 53px auto;
+        background-position: right bottom;
+    }
+}
+
+@media screen and (min-width: 600px) {
+
+    #store-details a.expandable:hover {
+        background-color: transparent !important;
+        color: #999;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+
+    .gm-style .gm-style-iw {
+        height: auto !important;
+    }
+
+    #store_locator .col-xs-3, #store_locator .col-xs-6, #store_locator .col-xs-7, #store_locator .col-xs-9, #store_locator .col-xs-12 {
+        margin-bottom: 0px;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+
+    #store_locator .col-xs-3, #store_locator .col-xs-6, #store_locator .col-xs-7, #store_locator .col-xs-9, #store_locator .col-xs-12 {
+        margin-bottom: 0px;
+    }
+
+    .container {
+
+    }
+
+}
+
+@media screen and (min-width: 240px) {
+
+    #store-details a.expandable:hover {
+        background-color: transparent;
+        color: #bc0009;
+    }
+
+    #store-locator-nav-wrap #store-locator-nav li a#m_map {
+        background-position: -88px top;
+    }
+
+}
+

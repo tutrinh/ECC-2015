@@ -1,0 +1,1126 @@
+<html lang="en-US" class="sf-no-mobile js cssanimations csstransforms csstransforms3d csstransitions wf-montserrat-n4-active wf-vidaloka-n4-active wf-active">
+<!--// OPEN HEAD //-->
+
+<head>
+    <!--// SITE TITLE //-->
+    <title>ECC Template One Column</title>
+    <!--// SITE META //-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="apple-mobile-web-app-title" content="ECC IN">
+    <meta name="robots" content="noindex">
+    <!--// PINGBACK & FAVICON //-->
+    <link rel="shortcut icon" href="http://static.heart.org/ahaanywhere_dev/v2/img/favicon.png">
+    <!--Google Font Loader-->
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" id="sf_styles-css" href="http://static.heart.org/ahaanywhere_dev/v2/css/superfly-menu.css?ver=3.9.2" type="text/css" media="all">
+    <link rel="stylesheet" id="bootstrap-css" href="http://static.heart.org/ahaanywhere_dev/v2/css/bootstrap.min.css" type="text/css" media="all">
+    <!--SS-GIZMO FOR SCROLL TO TOP ICON ON BOTTOM RIGHT-->
+    <link rel="stylesheet" id="ssgizmo-css" href="http://static.heart.org/ahaanywhere_dev/v2/css/ss-gizmo.css" type="text/css" media="all">
+    <!-- CDN Font Awesome -->
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://static.heart.org/ahaanywhere_dev/v2/css/style.css" type="text/css" media="all">
+    <!--RESPONSIVE NAV-->
+    <link rel="stylesheet" id="sf-responsive-css" href="http://static.heart.org/ahaanywhere_dev/v2/css/responsive.css" type="text/css" media="all">
+    <script type="text/javascript" src="http://static.heart.org/ahaanywhere_dev/v2/js/jquery/jquery.js?ver=1.11.0"></script>
+    <script type="text/javascript" src="http://static.heart.org/ahaanywhere_dev/v2/js/jquery/jquery-migrate.min.js?ver=1.2.1"></script>
+    <!-- // SUPERFLY MENU PARAMS // -->
+    <script type="text/javascript">
+        /* <![CDATA[ */
+        var SF_Opts = {
+            "push_content": "push",
+            "sidebar_pos": "left",
+            "width_panel_1": "250",
+            "width_panel_2": "200",
+            "width_panel_3": "200",
+            "width_panel_4": "175",
+            "base_color": "#101010",
+            "opening_type": "click",
+            "sub_opening_type": "click",
+            "label": "none",
+            "label_top": "25px",
+            "label_size": "1x",
+            "label_vis": "hidden",
+            "bg": "none",
+            "menu": "190",
+            "togglers": ".aha_logo",
+            "subMenuSupport": "yes",
+            "subMenuSelector": "sub-menu, children",
+            "activeClassSelector": "current-menu-item",
+            "allowedTags": "DIV, NAV, UL, OL, LI, A, P, H1, H2, H3, H4, SPAN"
+        };
+        /* ]]> */
+    </script>
+    <script type="text/javascript" src="http://static.heart.org/ahaanywhere_dev/v2/js/superfly-menu.min.js?ver=3.9.2"></script>
+
+    <script type="text/javascript" charset="utf-8">
+
+    function tabNavigation(url) {
+
+        var formBlsProviderStartDate = document.getElementById("blsProviderStartDate").value;
+        var blsProviderStartDate = document.getElementById("hiddenBlsProviderStartDate").value;
+
+        var formAclsProviderStartDate = document.getElementById("aclsProviderStartDate").value;
+        var aclsProviderStartDate = document.getElementById("hiddenAclsProviderStartDate").value;
+
+        var formAclsExpProviderStartDate = document.getElementById("aclsExpProviderStartDate").value;
+        var aclsExpProviderStartDate = document.getElementById("hiddenAclsExpProviderStartDate").value;
+
+        var formHsAEDStartDate = document.getElementById("hsAEDStartDate").value;
+        var hsAEDStartDate = document.getElementById("hiddenHsAEDStartDate").value;
+
+        var formHsCPRStartDate = document.getElementById("hsCPRStartDate").value;
+        var hsCPRStartDate = document.getElementById("hiddenHsCPRStartDate").value;
+
+        var formHsFirstAidStartDate = document.getElementById("hsFirstAidStartDate").value;
+        var hsFirstAidStartDate = document.getElementById("hiddenHsFirstAidStartDate").value;
+
+        var formHsFirstAidCPRAEDStartDate = document.getElementById("hsFirstAidCPRAEDStartDate").value;
+        var hsFirstAidCPRAEDStartDate = document.getElementById("hiddenHsFirstAidCPRAEDStartDate").value;
+
+        var formPalsProviderStartDate = document.getElementById("palsProviderStartDate").value;
+        var palsProviderStartDate = document.getElementById("hiddenPalsProviderStartDate").value;
+
+        var formPearsProviderStartDate = document.getElementById("pearsProviderStartDate").value;
+        var pearsProviderStartDate = document.getElementById("hiddenPearsProviderStartDate").value;
+
+        var formBlsStartDate = document.getElementById("blsInstructorStartDate").value;
+        var blsStartDate = document.getElementById("hiddenBlsInstructorStartDate").value;
+
+        var formAclsStartDate = document.getElementById("aclsInstructorStartDate").value;
+        var aclsStartDate = document.getElementById("hiddenAclsInstructorStartDate").value;
+
+        var formPalsStartDate = document.getElementById("palsInstructorStartDate").value;
+        var palsStartDate = document.getElementById("hiddenPalsInstructorStartDate").value;
+
+        var formHsStartDate = document.getElementById("hsInstructorStartDate").value;
+        var hsStartDate = document.getElementById("hiddenHsInstructorStartDate").value;
+        //Bugzilla 16654
+        var formAclsEpStartDate = document.getElementById("aclsEpInstructorStartDate").value;
+        var aclsEpStartDate = document.getElementById("hiddenAclsEpInstructorStartDate").value;
+
+        //var formHsseStartDate = document.getElementById("hsseInstructorStartDate").value;
+        //var hsseStartDate = document.getElementById("hiddenHsseInstructorStartDate").value;
+
+        var click = true;
+
+        if (!((blsProviderStartDate == formBlsProviderStartDate) && (formAclsProviderStartDate == aclsProviderStartDate)
+                && (formAclsExpProviderStartDate == aclsExpProviderStartDate) && (formHsAEDStartDate == hsAEDStartDate)
+                && (formHsCPRStartDate == hsCPRStartDate) && (formHsFirstAidStartDate == hsFirstAidStartDate)
+                && (formHsFirstAidCPRAEDStartDate == hsFirstAidCPRAEDStartDate) && (formPalsProviderStartDate == palsProviderStartDate)
+                && (formPearsProviderStartDate == pearsProviderStartDate) && (formBlsStartDate == blsStartDate) && (formAclsStartDate == aclsStartDate)
+                && (formPalsStartDate == palsStartDate) && (formHsStartDate == hsStartDate) && (formAclsEpStartDate == aclsEpStartDate))) {
+            click = confirm('Warning! You have made changes to your profile that have not been submitted. Are you sure you would like to proceed?');
+        }
+
+        if (click == false) {
+            return;
+        } else {
+            //window.location.href = url;
+            document.credentialsForm.action = url;
+            document.credentialsForm.submit();
+        }
+    }
+
+    function changeExpDate() {
+
+        var blsProviderExpDate = document.getElementById("blsProviderExpDate");
+        if (blsProviderExpDate != null) {
+            var spanBlsProviderObj = document.getElementById("blsProviderExpDateId");
+            spanBlsProviderObj.innerHTML = blsProviderExpDate.value;
+        }
+
+        var aclsProviderExpDate = document.getElementById("aclsProviderExpDate");
+        if (aclsProviderExpDate != null) {
+            var spanAclsProviderExpDateObj = document.getElementById("aclsProviderExpDateId");
+            spanAclsProviderExpDateObj.innerHTML = aclsProviderExpDate.value;
+        }
+
+        var aclsExpProviderExpDate = document.getElementById("aclsExpProviderExpDate");
+
+        if (aclsExpProviderExpDate != null) {
+            var spanAclsExpProviderExpDateObj = document.getElementById("aclsExpProviderExpDateId");
+            spanAclsExpProviderExpDateObj.innerHTML = aclsExpProviderExpDate.value;
+        }
+
+        var hsAEDExpDate = document.getElementById("hsAEDExpDate");
+
+        if (hsAEDExpDate != null) {
+            var spanHsAEDExpDateObj = document.getElementById("hsAEDExpDateId");
+            spanHsAEDExpDateObj.innerHTML = hsAEDExpDate.value;
+        }
+
+        var hsCPRExpDate = document.getElementById("hsCPRExpDate");
+        if (hsCPRExpDate != null) {
+            var spanHsCPRExpDateObj = document.getElementById("hsCPRExpDateId");
+            spanHsCPRExpDateObj.innerHTML = hsCPRExpDate.value;
+        }
+
+        var hsFirstAidExpDate = document.getElementById("hsFirstAidExpDate");
+        if (hsFirstAidExpDate != null) {
+            var spanHsFirstAidExpDateObj = document.getElementById("hsFirstAidExpDateId");
+            spanHsFirstAidExpDateObj.innerHTML = hsFirstAidExpDate.value;
+        }
+
+        var hsFirstAidCPRAEDExpDate = document.getElementById("hsFirstAidCPRAEDExpDate");
+        if (hsFirstAidCPRAEDExpDate != null) {
+            var spanHsFirstAidCPRAEDExpDateObj = document.getElementById("hsFirstAidCPRAEDExpDateId");
+            spanHsFirstAidCPRAEDExpDateObj.innerHTML = hsFirstAidCPRAEDExpDate.value;
+        }
+
+        var palsProviderExpDate = document.getElementById("palsProviderExpDate");
+        if (palsProviderExpDate != null) {
+            var spanPalsProviderExpDateObj = document.getElementById("palsProviderExpDateId");
+            spanPalsProviderExpDateObj.innerHTML = palsProviderExpDate.value;
+        }
+
+        var pearsProviderExpDate = document.getElementById("pearsProviderExpDate");
+        if (pearsProviderExpDate != null) {
+            var spanPearsProviderExpDateObj = document.getElementById("pearsProviderExpDateId");
+            spanPearsProviderExpDateObj.innerHTML = pearsProviderExpDate.value;
+        }
+    }
+
+
+    $(document).ready(function () {
+
+        //Variable declarations for Expiration Date ----------------------------------------
+        var theDateInput;
+        var newExpYear;
+        var newExpMonth;
+        var dd;
+        var lastDayofMonth;
+        var tempExpDate;
+        var tempInput;
+
+        //Date Picker----------------------------------------------------------------------
+        $("input.inputDate").datepicker({
+            showOn: 'button',
+            buttonImage: document.location.protocol + '//static.heart.org/ahaecc/images/icon_calendar_16.png',
+            buttonImageOnly: true
+        });
+
+        $("input.inputDate").change(function () {
+            //Validation checks
+
+            theDateInput = $(this).val();
+            tempInput = $(this).parent().next().children("span.theExpDate");
+            /* --------------------------------------------------------------------- */
+            if (theDateInput.length > 0) {//If there is any value
+
+                if (isDate(theDateInput)) {//Check if input is valid date format
+                    myArray = theDateInput.split("/");
+                    newExpYear = Number(myArray[2]) + 2;
+                    newExpMonth = Number(myArray[0]);
+                    //Display expiration date with the last day of that expiration month
+                    dd = new Date(newExpYear, newExpMonth, 0);
+                    lastDayofMonth = dd.getDate();
+                    tempExpDate = String(myArray[0] + "/" + lastDayofMonth + "/" + newExpYear);
+                    $(tempInput).css({color: "#444444"}).text(tempExpDate);
+                } else {//else not valid date
+                    $(tempInput).css({color: "#ff0000", display: "block", width: "100px"}).text("Invalid start date");
+                }
+
+            } else { //if no value on change then
+                //Make theExpDate field blank
+                $(tempInput).text('');
+            }
+            /* --------------------------------------------------------------------- */
+            //input into  hidden field for form submission
+            tempHidden = $(this).parent().next().children("input.hiddenExpdate");
+            $(tempHidden).attr('value', tempExpDate);
+
+        });
+
+        //Additional on page reload
+        //Check if there is a value in input.hiddenExpDate
+        //then write the value to span.theExpDate
+        $('input.hiddenExpdate').each(function () {
+
+            var theHiddendVal = $(this).attr('value');
+            $(this).prev("span.theExpDate").text(theHiddendVal);
+
+        });
+
+        //Add Class to the calendar icon
+        $('img').each(function () {
+            if ($(this).hasClass("ui-datepicker-trigger")) {
+                $(this).addClass("icon").attr('title', "Pick Date");
+            }
+        });
+
+
+    });
+
+    //Function Section
+    //isDate function
+    function isDate(txtDate) {
+        var objDate,  // date object initialized from the txtDate string
+                mSeconds, // txtDate in milliseconds
+                day,      // day
+                month,    // month
+                year;     // year
+        // date length should be 10 characters (no more no less)
+        if (txtDate.length !== 10) {
+            return false;
+        }
+        // third and sixth character should be '/'
+        if (txtDate.substring(2, 3) !== '/' || txtDate.substring(5, 6) !== '/') {
+            return false;
+        }
+        // extract month, day and year from the txtDate (expected format is mm/dd/yyyy)
+        // subtraction will cast variables to integer implicitly
+        month = txtDate.substring(0, 2) - 1; // because months in JS start from 0
+        day = txtDate.substring(3, 5) - 0;
+        year = txtDate.substring(6, 10) - 0;
+        // test year range
+        if (year < 1000 || year > 3000) {
+            return false;
+        }
+        // convert txtDate to milliseconds
+        mSeconds = (new Date(year, month, day)).getTime();
+        // initialize Date() object from calculated milliseconds
+        objDate = new Date();
+        objDate.setTime(mSeconds);
+        // compare input date and parts from Date() object
+        // if difference exists then date isn't valid
+        if (objDate.getFullYear() !== year ||
+                objDate.getMonth() !== month ||
+                objDate.getDate() !== day) {
+            return false;
+        }
+        // otherwise return true
+        return true;
+    }//End isDate function
+
+    </script>
+    <!-- // END SUPERFLY MENU // -->
+    <!--// CLOSE HEAD //-->
+</head>
+
+<body class="IN page page-template-default responsive-fluid standard-browser superfly-on sf-pos-left sf-toggle-click sf-compact" ontouchstart="">
+<div id="sf-fixed-container"></div>
+<div id="sf-body-bg"></div>
+<div id="sf-sidebar" class="sf-underline-1 sf-underline-left">
+    <div class="sf-scroll-wrapper">
+        <div class="sf-scroll">
+            <div class="sf-logo">
+                <a href="/">
+                    <img src="img/AHALogo_wht.png" alt="">
+                </a>
+                <form role="search" method="get" class="search-form" action="/">
+                    <label>
+                        <input type="search" class="search-field" placeholder="" value="" name="s">
+                    </label>
+                    <input type="submit" class="search-submit" value="Search">
+                </form>
+            </div>
+            <nav class="sf-nav">
+                <!--Sub-Nav-->
+                <ul class="sf-menu-level-0">
+                    <li>
+                        <a href="#"> <span>Getting Healthy</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"> <span>Conditions</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"> <span>Healthcare / Research</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"> <span>Caregiver</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"> <span>Educator</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"> <span>CPR &amp; ECC</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"> <span>Shop</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"> <span>Causes</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"> <span>Advocate</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"> <span>Giving</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"> <span>News</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <ul class="sf-social"></ul>
+        </div>
+    </div>
+    <div class="sf-sidebar-bg"></div>
+    <div class="sf-rollback sf-color1 sf-label-hidden sf-label-none sf-label-text">
+        <div class="sf-navicon-button x">
+            <div class="sf-navicon"></div>
+        </div>
+    </div>
+</div>
+<div id="sf-overlay-wrapper">
+    <div id="sf-overlay"></div>
+</div>
+<!--[if lt IE 9]>
+<script data-cfasync="false" src="js/respond.min.js">
+</script>
+<script data-cfasync="false" src="js/html5shiv.js">
+</script>
+<script data-cfasync="false"
+        src="js/excanvas.compiled.js">
+</script>
+<![endif]-->
+<!--// OPEN BODY //-->
+<!--// SEARCH BAR //-->
+<div id="header-search">
+    <div class="container clearfix"> <i class="ss-search">
+    </i>
+        <form method="get" class="search-form" action="">
+            <input type="text" placeholder="Search for something..." name="s" autocomplete="off">
+        </form>
+        <a id="header-search-close" href="#"> <i class="ss-delete">
+        </i>
+        </a>
+    </div>
+</div>
+<!--// CLOSE SEARCH BAR //-->
+<!--// MOBILE MENU OPENS UP ON THE RIGHT WITH THE MENU ICON WHEN MOBILE //-->
+<div id="mobile-menu-wrap">
+    <form method="get" class="mobile-search-form" action="">
+        <input type="text" placeholder="Search" name="s" autocomplete="off">
+    </form>
+    <nav id="mobile-menu" class="clearfix">
+        <div class="menu-ecc-navigation-mobile-container">
+            <ul id="menu-ecc-navigation-mobile" class="menu">
+                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12836"> <a href="/ecc-in-homepage/">
+                    Dashboard
+                </a>
+                </li>
+                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12837"> <a href="https://ahainstructornetwork.americanheart.org/AHAECC/Courses/Courses_UCM_311962_DynamicOverview.jsp?_requestid=95028">
+                    Courses
+                </a>
+                </li>
+                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12838"> <a href="https://ahainstructornetwork.americanheart.org/AHAECC/TrainingCenters/Training-Centers_UCM_311982_SubHomePage.jsp">
+                    Training Centers
+                </a>
+                </li>
+                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12839"> <a href="https://ahainstructornetwork.americanheart.org/AHAECC/News/News_UCM_311983_SubHomePage.jsp">
+                    News
+                </a>
+                </li>
+                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12840"> <a href="#">
+                    Additional Tools
+                </a>
+                </li>
+                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12841"> <a href="#">
+                    Support
+                </a>
+                </li>
+                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12842"> <a href="#">
+                    Admin
+                </a>
+                </li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-5864 current_page_item menu-item-12845"> <a href="http://digitaldev.heart.org/ecc/my-account/">
+                    My Account
+                </a>
+                </li>
+                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12844"> <a href="">
+                    Sign Out
+                </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>
+<!--// CLOSE MOBILE MENU //-->
+<!--// OPEN #container (this is the container for the 3d transform for the search  //-->
+<div id="container">
+<!--// HEADER //-->
+<div class="header-wrap">
+    <div id="header-section" class="header-7">
+        <header id="header" class="clearfix">
+            <!--// TOP MENU SLIVER //-->
+            <div id="top-header">
+                <div class="container">
+                    <div class="th-left col-sm-8 clearfix">
+                        <nav class="std-menu top-header-menu ahamenu">
+                            <ul class="menu">
+                                <li class="heart_logo">
+                                    <a href="http://heart.org" class="aha_logo">
+                                        <img src="img/hlaf_heart_logo@2x.png">
+                                    </a>
+                                </li>
+                                <li class="hidden-xs"> <a href="#" class="header-button donate-button">
+                                    DONATE
+                                </a>
+                                </li>
+                                <li class="hidden-xs"> <a href="#" class="header-button volunteer-button">
+                                    VOLUNTEER
+                                </a>
+                                </li>
+                                <li> <a href="#" class="header-button warning-button">
+                                    Warning Signs
+                                </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <!-- CLOSE .tb-left -->
+                    <div class="th-right col-sm-4 clearfix">
+                        <nav class="std-menu top-header-menu">
+                            <ul class="menu">
+                                <li> <a href="#">
+                                    Login
+                                </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <!-- CLOSE .tb-right -->
+                </div>
+                <!-- CLOSE .container -->
+            </div>
+            <!--// MAIN MENU //-->
+            <div class="sticky-header">
+                <div class="container header-container">
+                    <div class="row">
+                        <!--// LEFT //-->
+                        <div id="logo" class="logo-left clearfix">
+                            <a href="http://digitaldev.heart.org/ecc">
+                                <img class="standard" src="img/aha_logo2.png" alt="ECC">
+                                <img class="retina" src="img/aha_logo@2x.png" alt="ECC">
+                            </a>
+                            <a href="#" class="visible-sm visible-xs mobile-menu-show"> <i class="ss-rows">
+                            </i>
+                            </a>
+                        </div>
+                        <!--// RIGHT //-->
+                        <div class="header-right">
+                            <nav class="search-nav std-menu">
+                                <ul class="menu">
+                                    <li class="menu-search parent">
+                                        <a href="#" class="header-search-link"> <i class="ss-search">
+                                        </i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <!--TERTIARY NAV FOR LARGER SCREENS-->
+                            <!--// MENU //-->
+                            <nav id="main-navigation" class="mega-menu clearfix">
+                                <div class="menu-ecc-navigation-container">
+                                    <ul id="menu-ecc-navigation" class="menu">
+                                        <li class="menu-item-13168 menu-item menu-item-type-post_type menu-item-object-page"> <a href="http://digitaldev.heart.org/ecc/ecc-in-homepage/">
+                                            My Home
+                                <span
+                                        class="nav-line">
+                                </span>
+                                        </a>
+                                        </li>
+                                        <li class="menu-item-13126 menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children parent"> <a href="http://digitaldev.heart.org/ecc/courses/" class="dc-mega">
+                                            Courses
+                                <span class="nav-line">
+                                </span>
+                                <span
+                                        class="dc-mega-icon">
+                                </span>
+                                        </a>
+                                            <!-- // FLY OUT MENU - SUB MENU // -->
+                                            <div class="sub-container non-mega">
+                                                <ul class="sub-menu sub">
+                                                    <li class="menu-item-13127 menu-item menu-item-type-custom menu-item-object-custom"> <a href="http://digitaldev.heart.org/ecc/bls/">
+                                                        BLS
+                                                    </a>
+                                                    </li>
+                                                    <li class="menu-item-13140 menu-item menu-item-type-custom menu-item-object-custom"> <a href="#">
+                                                        Heartsaver
+                                                    </a>
+                                                    </li>
+                                                    <li class="menu-item-13141 menu-item menu-item-type-custom menu-item-object-custom"> <a href="#">
+                                                        ACLS
+                                                    </a>
+                                                    </li>
+                                                    <li class="menu-item-13142 menu-item menu-item-type-custom menu-item-object-custom"> <a href="#">
+                                                        PALS
+                                                    </a>
+                                                    </li>
+                                                    <li class="menu-item-13143 menu-item menu-item-type-custom menu-item-object-custom"> <a href="#">
+                                                        PEARS
+                                                    </a>
+                                                    </li>
+                                                    <li class="menu-item-13144 menu-item menu-item-type-custom menu-item-object-custom"> <a href="#">
+                                                        Other Courses &amp; Programs
+                                                    </a>
+                                                    </li>
+                                                    <li class="menu-item-13145 menu-item menu-item-type-custom menu-item-object-custom"> <a href="#">
+                                                        Airway Management
+                                                    </a>
+                                                    </li>
+                                                    <li class="menu-item-13146 menu-item menu-item-type-custom menu-item-object-custom"> <a href="#">
+                                                        ECG &amp; Pharmacology
+                                                    </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <!--// CLOSE SUB MENU // -->
+                                        </li>
+                                        <li class="menu-item-12432 menu-item menu-item-type-custom menu-item-object-custom"> <a href="https://ahainstructornetwork.americanheart.org/AHAECC/TrainingCenters/Training-Centers_UCM_311982_SubHomePage.jsp">
+                                            Training
+                                            Centers
+                                <span class="nav-line">
+                                </span>
+                                        </a>
+                                        </li>
+                                        <li class="menu-item-12680 menu-item menu-item-type-custom menu-item-object-custom"> <a href="https://ahainstructornetwork.americanheart.org/AHAECC/News/News_UCM_311983_SubHomePage.jsp">
+                                            News
+                                <span
+                                        class="nav-line">
+                                </span>
+                                        </a>
+                                        </li>
+                                        <li class="menu-item-12681 menu-item menu-item-type-custom menu-item-object-custom"> <a href="#">
+                                            Additional Tools
+                                <span class="nav-line">
+                                </span>
+                                        </a>
+                                        </li>
+                                        <li class="menu-item-12682 menu-item menu-item-type-custom menu-item-object-custom"> <a href="#">
+                                            Support
+                                            <span class="nav-line"></span>
+                                        </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </nav>
+                            <!--// CLOSE MENU //-->
+                        </div>
+                    </div>
+                    <!-- CLOSE .row -->
+                </div>
+                <!-- CLOSE .container -->
+            </div>
+            <!-- // END #HEADER // -->
+        </header>
+        <!--END #HEADER-SECTION-->
+    </div>
+    <!--END .HEADER-WRAP-->
+</div>
+<!--// CLOSE HEADER //-->
+<!--// OPEN #main-container //-->
+<div id="main-container" class="clearfix">
+<!--// OPEN #page-wrap //-->
+<div id="page-wrap">
+<!--SECTION-->
+<div class="container">
+    <div class="row">
+        <div class="page-heading col-sm-12 clearfix alt-bg none">
+            <div class="heading-text">
+                <!--PAGE TITLE-->
+                <h1 class="entry-title">Edit My Profile</h1>
+            </div>
+            <!--BREAD CRUMB-->
+            <div id="breadcrumbs"> <span typeof="v:Breadcrumb">
+                        <a rel="v:url" property="v:title" title="Go to ECC." href="http://digitaldev.heart.org/ecc" class="home">ECC</a>
+                      </span>&gt;<span typeof="v:Breadcrumb">
+                        <a rel="v:url" property="v:title" title="Go to My Account." href="http://digitaldev.heart.org/ecc/my-account/" class="post post-page current-item">Edit My Profile</a>
+                      </span>
+                </span>&gt;<span typeof="v:Breadcrumb">
+                        <a rel="v:url" property="v:title" title="Go to My Account." href="http://digitaldev.heart.org/ecc/my-account/" class="post post-page current-item">Course Completions</a>
+                      </span>
+                <!--END BREAD CRUMB-->
+            </div>
+            <!--END PAGE-HEADING-->
+        </div>
+        <!--END ROW-->
+    </div>
+    <!--// END CONTAINER //-->
+</div>
+<!--SECTION-->
+<div class="container">
+<div class="inner-page-wrap row clearfix">
+<!-- BEGIN PAGE CONTENT / / / / / / / / / / / / / / / / / / / / / / / / / / / /  / / / / / / / / / / / / / / / / -->
+<!-- USE TWITTER BOOTSTRAP FOR LAYOUT / / / / / / / / / / / / / / / / / / / // / / / / / / / / / / / / / / / / /-->
+<div class="page col-sm-12">
+<div class="page-content">
+<!--START PAGE CONTENT  / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / -->
+<h3 class="spb-heading spb-text-heading"><span>Course Completions</span></h3>
+<form action="/AHAECC/ecc.jsp?pid=ahaecc.editCredentials&_DARGS=/AHAECC/account/editCredentials.jsp.credential" name="credentialsForm" method="post">
+<input value="ISO-8859-1" type="hidden" name="_dyncharset"></input>
+<!-- Access Information -->
+<p class="help-block">Optional - For your tracking purposes only</p>
+<table class="table table-striped">
+<thead>
+<th>Course Completions</th>
+<th>Start Date <span class="muted">(mm/dd/yyyy)</span>
+</th>
+<th>Expiration <span class="mute">(mm/dd/yyyy)</span>
+</th>
+</thead>
+<tbody class="table-striped table-hover">
+<tr class="bgEven">
+    <td>
+        <div id="blsProviderStartDateDiv">BLS Healthcare Provider</div>
+    </td>
+    <td>
+        <input value="" maxlength="15" type="text" class="inputDate inputHint" size="10" name="blsProviderStartDate" id="blsProviderStartDate">
+        <input value=" " type="hidden" name="_D:blsProviderStartDate">
+        <input value="" type="hidden" name="/org/heart/ecc/handler/UpdateProfileFormHandler.hiddenBlsProviderStartDate" id="hiddenBlsProviderStartDate">
+        <input value=" " type="hidden" name="_D:/org/heart/ecc/handler/UpdateProfileFormHandler.hiddenBlsProviderStartDate">
+    </td>
+    <td><span class="theExpDate" id="blsProviderExpDateId"></span>
+        <input value="" type="hidden" class="hiddenExpdate" name="blsProviderExpDate" id="blsProviderExpDate">
+        <input value=" " type="hidden" name="_D:blsProviderExpDate">
+    </td>
+</tr>
+<tr class="bgOdd">
+    <td>
+        <div id="aclsProviderStartDateDiv">ACLS Provider</div>
+    </td>
+    <td>
+        <input value="" maxlength="15" type="text" class="inputDate inputHint" size="10" name="aclsProviderStartDate" id="aclsProviderStartDate">
+        <input value=" " type="hidden" name="_D:aclsProviderStartDate">
+        <input value="" type="hidden" name="/org/heart/ecc/handler/UpdateProfileFormHandler.hiddenAclsProviderStartDate" id="hiddenAclsProviderStartDate">
+        <input value=" " type="hidden" name="_D:/org/heart/ecc/handler/UpdateProfileFormHandler.hiddenAclsProviderStartDate">
+    </td>
+    <td><span class="theExpDate" id="aclsProviderExpDateId"></span>
+        <input value="" type="hidden" class="hiddenExpdate" name="aclsProviderExpDate" id="aclsProviderExpDate">
+        <input value=" " type="hidden" name="_D:aclsProviderExpDate">
+    </td>
+</tr>
+<tr class="bgEven">
+    <td>
+        <div id="aclsExpProviderStartDateDiv">ACLS for the Experienced Provider</div>
+    </td>
+    <td>
+        <input value="" maxlength="15" type="text" class="inputDate inputHint" size="10" name="aclsExpProviderStartDate" id="aclsExpProviderStartDate">
+        <input value=" " type="hidden" name="_D:aclsExpProviderStartDate">
+        <input value="" type="hidden" name="/org/heart/ecc/handler/UpdateProfileFormHandler.hiddenAclsExpProviderStartDate" id="hiddenAclsExpProviderStartDate">
+        <input value=" " type="hidden" name="_D:/org/heart/ecc/handler/UpdateProfileFormHandler.hiddenAclsExpProviderStartDate">
+    </td>
+    <td><span class="theExpDate" id="aclsExpProviderExpDateId"></span>
+        <input value="" type="hidden" class="hiddenExpdate" name="aclsExpProviderExpDate" id="aclsExpProviderExpDate">
+        <input value=" " type="hidden" name="_D:aclsExpProviderExpDate">
+    </td>
+</tr>
+<tr class="bgOdd">
+    <td>
+        <div id="hsAEDStartDateDiv">Heartsaver AED</div>
+    </td>
+    <td>
+        <input value="" maxlength="15" type="text" class="inputDate inputHint" size="10" name="hsAEDStartDate" id="hsAEDStartDate">
+        <input value=" " type="hidden" name="_D:hsAEDStartDate">
+        <input value="" type="hidden" name="/org/heart/ecc/handler/UpdateProfileFormHandler.hiddenHsAEDStartDate" id="hiddenHsAEDStartDate">
+        <input value=" " type="hidden" name="_D:/org/heart/ecc/handler/UpdateProfileFormHandler.hiddenHsAEDStartDate">
+    </td>
+    <td><span class="theExpDate" id="hsAEDExpDateId"></span>
+        <input value="" type="hidden" class="hiddenExpdate" name="hsAEDExpDate" id="hsAEDExpDate">
+        <input value=" " type="hidden" name="_D:hsAEDExpDate">
+    </td>
+</tr>
+<tr class="bgEven">
+    <td>
+        <div id="hsCPRStartDateDiv">Heartsaver CPR</div>
+    </td>
+    <td>
+        <input value="" maxlength="15" type="text" class="inputDate inputHint" size="10" name="hsCPRStartDate" id="hsCPRStartDate">
+        <input value=" " type="hidden" name="_D:hsCPRStartDate">
+        <input value="" type="hidden" name="/org/heart/ecc/handler/UpdateProfileFormHandler.hiddenHsCPRStartDate" id="hiddenHsCPRStartDate">
+        <input value=" " type="hidden" name="_D:/org/heart/ecc/handler/UpdateProfileFormHandler.hiddenHsCPRStartDate">
+    </td>
+    <td><span class="theExpDate" id="hsCPRExpDateId"></span>
+        <input value="" type="hidden" class="hiddenExpdate" name="hsCPRExpDate" id="hsCPRExpDate">
+        <input value=" " type="hidden" name="_D:hsCPRExpDate">
+    </td>
+</tr>
+<tr class="bgOdd">
+    <td>
+        <div id="hsFirstAidStartDateDiv">Heartsaver First Aid</div>
+    </td>
+    <td>
+        <input value="" maxlength="15" type="text" class="inputDate inputHint" size="10" name="hsFirstAidStartDate" id="hsFirstAidStartDate">
+        <input value=" " type="hidden" name="_D:hsFirstAidStartDate">
+        <input value="" type="hidden" name="/org/heart/ecc/handler/UpdateProfileFormHandler.hiddenHsFirstAidStartDate" id="hiddenHsFirstAidStartDate">
+        <input value=" " type="hidden" name="_D:/org/heart/ecc/handler/UpdateProfileFormHandler.hiddenHsFirstAidStartDate">
+    </td>
+    <td><span class="theExpDate" id="hsFirstAidExpDateId"></span>
+        <input value="" type="hidden" class="hiddenExpdate" name="hsFirstAidExpDate" id="hsFirstAidExpDate">
+        <input value=" " type="hidden" name="_D:hsFirstAidExpDate">
+    </td>
+</tr>
+<tr class="bgEven">
+    <td>
+        <div id="hsFirstAidCPRAEDStartDateDiv">Heartsaver First Aid with CPR and AED</div>
+    </td>
+    <td>
+        <input value="" maxlength="15" type="text" class="inputDate inputHint" size="10" name="hsFirstAidCPRAEDStartDate" id="hsFirstAidCPRAEDStartDate">
+        <input value=" " type="hidden" name="_D:hsFirstAidCPRAEDStartDate">
+        <input value="" type="hidden" name="/org/heart/ecc/handler/UpdateProfileFormHandler.hiddenHsFirstAidCPRAEDStartDate" id="hiddenHsFirstAidCPRAEDStartDate">
+        <input value=" " type="hidden" name="_D:/org/heart/ecc/handler/UpdateProfileFormHandler.hiddenHsFirstAidCPRAEDStartDate">
+    </td>
+    <td><span class="theExpDate" id="hsFirstAidCPRAEDExpDateId"></span>
+        <input value="" type="hidden" class="hiddenExpdate" name="hsFirstAidCPRAEDExpDate" id="hsFirstAidCPRAEDExpDate">
+        <input value=" " type="hidden" name="_D:hsFirstAidCPRAEDExpDate">
+    </td>
+</tr>
+<tr class="bgOdd">
+    <td>
+        <div id="palsProviderStartDateDiv">PALS Provider</div>
+    </td>
+    <td>
+        <input value="" maxlength="15" type="text" class="inputDate inputHint" size="10" name="palsProviderStartDate" id="palsProviderStartDate">
+        <input value=" " type="hidden" name="_D:palsProviderStartDate">
+        <input value="" type="hidden" name="/org/heart/ecc/handler/UpdateProfileFormHandler.hiddenPalsProviderStartDate" id="hiddenPalsProviderStartDate">
+        <input value=" " type="hidden" name="_D:/org/heart/ecc/handler/UpdateProfileFormHandler.hiddenPalsProviderStartDate">
+    </td>
+    <td><span class="theExpDate" id="palsProviderExpDateId"></span>
+        <input value="" type="hidden" class="hiddenExpdate" name="palsProviderExpDate" id="palsProviderExpDate">
+        <input value=" " type="hidden" name="_D:palsProviderExpDate">
+    </td>
+</tr>
+<tr class="bgEven">
+    <td>
+        <div id="pearsProviderStartDateDiv">PEARS Provider</div>
+    </td>
+    <td>
+        <input value="" maxlength="15" type="text" class="inputDate inputHint" size="10" name="pearsProviderStartDate" id="pearsProviderStartDate">
+        <input value=" " type="hidden" name="_D:pearsProviderStartDate">
+        <input value="" type="hidden" name="/org/heart/ecc/handler/UpdateProfileFormHandler.hiddenPearsProviderStartDate" id="hiddenPearsProviderStartDate">
+        <input value=" " type="hidden" name="_D:/org/heart/ecc/handler/UpdateProfileFormHandler.hiddenPearsProviderStartDate">
+    </td>
+    <td><span class="theExpDate" id="pearsProviderExpDateId"></span>
+        <input value="" type="hidden" class="hiddenExpdate" name="pearsProviderExpDate" id="pearsProviderExpDate">
+        <input value=" " type="hidden" name="_D:pearsProviderExpDate">
+    </td>
+</tr>
+<tr class="bgOdd">
+    <td>
+        <div id="blsInstructorStartDateDiv">BLS Instructor</div>
+    </td>
+    <td>
+        <input value="" maxlength="15" type="text" class="inputDate inputHint" size="10" name="blsInstructorStartDate" id="blsInstructorStartDate">
+        <input value=" " type="hidden" name="_D:blsInstructorStartDate">
+        <input value="" type="hidden" name="/org/heart/ecc/handler/UpdateProfileFormHandler.hiddenBlsInstructorStartDate" id="hiddenBlsInstructorStartDate">
+        <input value=" " type="hidden" name="_D:/org/heart/ecc/handler/UpdateProfileFormHandler.hiddenBlsInstructorStartDate">
+    </td>
+    <td><span class="theExpDate" id="blsInstructorExpDateId"></span>
+        <input value="" type="hidden" class="hiddenExpdate" name="blsInstructorExpDate" id="blsInstructorExpDate">
+        <input value=" " type="hidden" name="_D:blsInstructorExpDate">
+    </td>
+</tr>
+<tr class="bgEven">
+    <td>
+        <div id="aclsInstructorStartDateDiv">ACLS Instructor</div>
+    </td>
+    <td>
+        <input value="" maxlength="15" type="text" class="inputDate inputHint" size="10" name="aclsInstructorStartDate" id="aclsInstructorStartDate">
+        <input value=" " type="hidden" name="_D:aclsInstructorStartDate">
+        <input value="" type="hidden" name="/org/heart/ecc/handler/UpdateProfileFormHandler.hiddenAclsInstructorStartDate" id="hiddenAclsInstructorStartDate">
+        <input value=" " type="hidden" name="_D:/org/heart/ecc/handler/UpdateProfileFormHandler.hiddenAclsInstructorStartDate">
+    </td>
+    <td><span class="theExpDate" id="aclsInstructorExpDateId"></span>
+        <input value="" type="hidden" class="hiddenExpdate" name="aclsInstructorExpDate" id="aclsInstructorExpDate">
+        <input value=" " type="hidden" name="_D:aclsInstructorExpDate">
+    </td>
+</tr>
+<tr class="bgOdd">
+    <td>
+        <div id="palsInstructorStartDateDiv">PALS Instructor</div>
+    </td>
+    <td>
+        <input value="" maxlength="15" type="text" class="inputDate inputHint" size="10" name="palsInstructorStartDate" id="palsInstructorStartDate">
+        <input value=" " type="hidden" name="_D:palsInstructorStartDate">
+        <input value="" type="hidden" name="/org/heart/ecc/handler/UpdateProfileFormHandler.hiddenPalsInstructorStartDate" id="hiddenPalsInstructorStartDate">
+        <input value=" " type="hidden" name="_D:/org/heart/ecc/handler/UpdateProfileFormHandler.hiddenPalsInstructorStartDate">
+    </td>
+    <td><span class="theExpDate" id="palsInstructorExpDateId"></span>
+        <input value="" type="hidden" class="hiddenExpdate" name="palsInstructorExpDate" id="palsInstructorExpDate">
+        <input value=" " type="hidden" name="_D:palsInstructorExpDate">
+    </td>
+</tr>
+<tr class="bgEven">
+    <td>
+        <div id="pearsInstructorStartDateDiv">PEARS Instructor</div>
+    </td>
+    <td>
+        <input value="" maxlength="15" type="text" class="inputDate inputHint" size="10" name="pearsInstructorStartDate" id="pearsInstructorStartDate">
+        <input value=" " type="hidden" name="_D:pearsInstructorStartDate">
+        <input value="" type="hidden" name="/org/heart/ecc/handler/UpdateProfileFormHandler.hiddenPearsInstructorStartDate" id="hiddenPearsInstructorStartDate">
+        <input value=" " type="hidden" name="_D:/org/heart/ecc/handler/UpdateProfileFormHandler.hiddenPearsInstructorStartDate">
+    </td>
+    <td><span class="theExpDate" id="pearsInstructorExpDateId"></span>
+        <input value="" type="hidden" class="hiddenExpdate" name="pearsInstructorExpDate" id="pearsInstructorExpDate">
+        <input value=" " type="hidden" name="_D:pearsInstructorExpDate">
+    </td>
+</tr>
+<tr class="bgOdd">
+    <td>
+        <div id="hsInstructorStartDateDiv">HS Instructor</div>
+    </td>
+    <td>
+        <input value="" maxlength="15" type="text" class="inputDate inputHint" size="10" name="hsInstructorStartDate" id="hsInstructorStartDate">
+        <input value=" " type="hidden" name="_D:hsInstructorStartDate">
+        <input value="" type="hidden" name="/org/heart/ecc/handler/UpdateProfileFormHandler.hiddenHsInstructorStartDate" id="hiddenHsInstructorStartDate">
+        <input value=" " type="hidden" name="_D:/org/heart/ecc/handler/UpdateProfileFormHandler.hiddenHsInstructorStartDate">
+    </td>
+    <td><span class="theExpDate" id="hsInstructorExpDateId"></span>
+        <input value="" type="hidden" class="hiddenExpdate" name="hsInstructorExpDate" id="hsInstructorExpDate">
+        <input value=" " type="hidden" name="_D:hsInstructorExpDate">
+    </td>
+</tr>
+<tr class="bgEven">
+    <td>
+        <div id="aclsEPInstructorStartDateDiv">ACLS EP Instructor</div>
+    </td>
+    <td>
+        <input value="" maxlength="15" type="text" class="inputDate inputHint" size="10" name="aclsEpInstructorStartDate" id="aclsEpInstructorStartDate">
+        <input value=" " type="hidden" name="_D:aclsEpInstructorStartDate">
+        <input value="" type="hidden" name="/org/heart/ecc/handler/UpdateProfileFormHandler.hiddenAclsEpInstructorStartDate" id="hiddenAclsEpInstructorStartDate">
+        <input value=" " type="hidden" name="_D:/org/heart/ecc/handler/UpdateProfileFormHandler.hiddenAclsEpInstructorStartDate">
+    </td>
+    <td><span class="theExpDate" id="aclsEpInstructorExpDateId"></span>
+        <input value="" type="hidden" class="hiddenExpdate" name="aclsEpInstructorExpDate" id="aclsEpInstructorExpDate">
+        <input value=" " type="hidden" name="_D:aclsEpInstructorExpDate">
+    </td>
+</tr>
+</tbody>
+</table>
+<hr/>
+<!-- Buttons - Update & Cancel -->
+<div class="pull-right">
+    <input value="/AHAECC/ecc.jsp?pid=ahaecc.editCredentials" type="hidden" name="/org/heart/ecc/handler/UpdateProfileFormHandler.updateErrorURL">
+    <input value=" " type="hidden" name="_D:/org/heart/ecc/handler/UpdateProfileFormHandler.updateErrorURL">
+    <input value="/AHAECC/ecc.jsp?pid=ahaecc.editCredentials" type="hidden" name="/org/heart/ecc/handler/UpdateProfileFormHandler.updateSuccessURL">
+    <input value=" " type="hidden" name="_D:/org/heart/ecc/handler/UpdateProfileFormHandler.updateSuccessURL">
+    <input type="submit" value="Submit Update" name="/org/heart/ecc/handler/UpdateProfileFormHandler.credentials">
+    <input value=" " type="hidden" name="_D:/org/heart/ecc/handler/UpdateProfileFormHandler.credentials">
+    <a href="/AHAECC/ecc.jsp?pid=ahaecc.dashboard">
+        Cancel
+    </a>
+</div>
+<input value="/AHAECC/account/editCredentials.jsp.credential" type="hidden" name="_DARGS"></input>
+</form>
+<!-- END PAGE CONTENT / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / /  -->
+</div>
+<!--END PAGE-->
+</div>
+<!--END INNER-PAGE-WRAP ROW-->
+</div>
+<!--// END CONTAINER //-->
+</div>
+<!--// CLOSE #page-wrap //-->
+</div>
+<!--// CLOSE #main-container //-->
+</div>
+<!--// FOOTER / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / /-->
+<div id="footer-wrap">
+    <!--// OPEN #footer //-->
+    <section id="footer" class="footer-divider">
+        <div class="container">
+            <div id="footer-widgets" class="row clearfix">
+                <div class="col-sm-3">
+                    <section id="text-10" class="widget widget_text clearfix">
+                        <div class="textwidget center">
+                            <a href="http://digitaldev.heart.org/heart" class="align_center">
+                                <img src="img/AHALogo_full_red_white@2x.png" width="176" height="120">
+                            </a>
+                        </div>
+                    </section>
+                    <section id="text-4" class="widget widget_text clearfix">
+                        <div class="textwidget">
+                            <div class="text-center">
+                                <ul class="social-icons standard ">
+                                    <li class="twitter">
+                                        <a href="http://www.twitter.com/American_Heart" target="_blank"> <i class="fa-twitter"></i>
+                                            <i class="fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li class="facebook">
+                                        <a href="https://www.facebook.com/AmericanHeart" target="_blank"> <i class="fa-facebook"></i>
+                                            <i class="fa-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <li class="googleplus">
+                                        <a href="https://plus.google.com/+AmericanHeart" target="_blank"> <i class="fa-google-plus"></i>
+                                            <i class="fa-google-plus"></i>
+                                        </a>
+                                    </li>
+                                    <li class="instagram">
+                                        <a href="http://instagram.com/american_heart" target="_blank"> <i class="fa-instagram"></i>
+                                            <i class="fa-instagram"></i>
+                                        </a>
+                                    </li>
+                                    <li class="pinterest">
+                                        <a href="http://www.pinterest.com/americanheart/" target="_blank"> <i class="fa-pinterest"></i>
+                                            <i class="fa-pinterest"></i>
+                                        </a>
+                                    </li>
+                                    <li class="youtube">
+                                        <a href="https://www.youtube.com/user/americanheartassoc" target="_blank"> <i class="fa-youtube"></i>
+                                            <i class="fa-youtube"></i>
+                                        </a>
+                                    </li>
+                                    <li class="rss">
+                                        <a href="http://feeds.feedburner.com/awesem" target="_blank"> <i class="fa-rss"></i>
+                                            <i class="fa-rss"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="col-sm-3">
+                    <section id="text-12" class="widget widget_text clearfix">
+                        <div class="widget-heading clearfix">
+                            <h6>
+                                About Us
+                            </h6>
+                        </div>
+                        <div class="textwidget">Our mission is to build healthier lives, free of cardiovascular diseases and stroke. That single purpose drives all we do. The need for our work is beyond
+                            question. <a href="http://digitaldev.heart.org/heart" class="align_left">
+                                Learn More
+                            </a>
+                        </div>
+                    </section>
+                </div>
+                <div class="col-sm-3">
+                    <section id="sf_custom_portfolio_grid-2" class="widget widget_sf_custom_portfolio_grid clearfix">
+                        <div class="widget-heading clearfix">
+                            <h6>
+                                Our Causes
+                            </h6>
+                        </div>
+                        <ul class="portfolio-grid">
+                            <li class="grid-item-0">
+                                <a href="http://digitaldev.heart.org/ecc/?portfolio=instructor-network" class="grid-image">
+                                    <img src="img/logo_instructors3-85x85.png" width="85" height="85" alt="Instructor Network"> <span class="tooltip">
+                          Instructor Network
+                          <span class="arrow"></span>
+											</span>
+                                </a>
+                            </li>
+                            <li class="grid-item-1">
+                                <a href="http://digitaldev.heart.org/ecc/?portfolio=mission-lifeline" class="grid-image">
+                                    <img src="img/findaCourse-85x85.png" width="85" height="85" alt="Find a Course"> <span class="tooltip">
+                          Find a Course
+                          <span class="arrow"></span>
+											</span>
+                                </a>
+                            </li>
+                            <li class="grid-item-2">
+                                <a href="http://digitaldev.heart.org/ecc/?portfolio=high-quality-cpr" class="grid-image">
+                                    <img src="img/highQuality-85x85.png" width="85" height="85" alt="High Quality CPR"> <span class="tooltip">
+                          High Quality CPR
+                          <span class="arrow"></span>
+											</span>
+                                </a>
+                            </li>
+                            <li class="grid-item-3">
+                                <a href="http://digitaldev.heart.org/ecc/?portfolio=cpr-family" class="grid-image">
+                                    <img src="img/cpr_family-85x85.png" width="85" height="85" alt="CPR – Family"> <span class="tooltip">
+                          CPR – Family
+                          <span class="arrow">
+                          </span>
+											</span>
+                                </a>
+                            </li>
+                            <li class="grid-item-4">
+                                <a href="http://digitaldev.heart.org/ecc/?portfolio=good-god-2" class="grid-image">
+                                    <img src="img/cpr_infant-85x85.png" width="85" height="85" alt="CPR – Infant"> <span class="tooltip">
+                          CPR – Infant
+                          <span class="arrow">
+                          </span>
+											</span>
+                                </a>
+                            </li>
+                            <li class="grid-item-5">
+                                <a href="http://digitaldev.heart.org/ecc/?portfolio=cpr" class="grid-image">
+                                    <img src="img/cpr-85x85.png" width="85" height="85" alt="CPR"> <span class="tooltip">
+                          CPR
+                          <span class="arrow">
+                          </span>
+											</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </section>
+                </div>
+                <div class="col-sm-3">
+                    <section id="text-5" class="widget widget_text clearfix">
+                        <div class="widget-heading clearfix">
+                            <h6>
+                                Column 4 Header
+                            </h6>
+                        </div>
+                        <div class="textwidget">Column 4 Body</div>
+                    </section>
+                </div>
+            </div>
+        </div>
+        <!--// CLOSE #footer //-->
+    </section>
+    <!--// OPEN #copyright //-->
+    <footer id="copyright" class="copyright-divider">
+        <div class="container">
+            <p>©2014 American Heart Association, Inc. All rights reserved. Unauthorized use prohibited.
+                <br>The American Heart Association is a qualified 501(c)(3) tax-exempt organization.</p>
+            <nav class="footer-menu std-menu">
+                <div class="menu-donate-nav-container">
+                    <ul id="menu-donate-nav" class="menu">
+                        <li id="menu-item-13206" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13206"> <a href="#">
+                            Volunteer
+                        </a>
+                        </li>
+                        <li id="menu-item-13205" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13205"> <a href="#">
+                            Donate
+                        </a>
+                        </li>
+                        <li id="menu-item-13207" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13207"> <a href="#">
+                            Other Ways to Help
+                        </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <!--// CLOSE #copyright //-->
+    </footer>
+    <!--// CLOSE FOOTER //-->
+</div>
+<!--// CLOSE #container //-->
+</div>
+<!--// BACK TO TOP //-->
+<div id="back-to-top" class="animate-top"> <i class="ss-navigateup"></i>
+</div>
+<!--// FRAMEWORK INCLUDES //-->
+<!--ADDING IN JS-->
+<script type="text/javascript" src="http://static.heart.org/ahaanywhere_dev/v2/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="http://static.heart.org/ahaanywhere_dev/v2/js/jquery/jquery.easing.js"></script>
+<script type="text/javascript" src="http://static.heart.org/ahaanywhere_dev/v2/js/theme-scripts.js"></script>
+<!--ISOTOPE FOR SEARCH-->
+<script type="text/javascript" src="http://static.heart.org/ahaanywhere_dev/v2/js/jquery/jquery.isotope.min.js"></script>
+<script type="text/javascript" src="http://static.heart.org/ahaanywhere_dev/v2/js/functions.js"></script>
+<a class="mobile-menu-close"> <i class="ss-delete">
+</i>
+</a>
+<!--// CLOSE BODY //-->
+<!--// CLOSE HTML //-->
+</body>
+
+</html>

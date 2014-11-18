@@ -1,0 +1,745 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"bs3-al",
+				"bs3-alert:info	bs3-alert-info"
+			],
+			[
+				"input",
+				"inputID"
+			],
+			[
+				"user",
+				"userinput"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"rea",
+				"ready	document.ready - $(function(){})"
+			],
+			[
+				"bs3-htm",
+				"bs3-template:html5	bs3-html5-template"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"bac",
+				"background-image"
+			],
+			[
+				"j",
+				"jQuery"
+			],
+			[
+				"ready",
+				"ready	jQuery(document).ready"
+			],
+			[
+				"data",
+				"dataTables"
+			],
+			[
+				"js",
+				"js-script	js-script"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"style",
+				"style	Tag"
+			],
+			[
+				"ecc-d",
+				"ecc-divider	ECC divider"
+			],
+			[
+				"ecc-h",
+				"ecc-heading	ECC content heading"
+			],
+			[
+				"bs3",
+				"bs3-alert	bs3-alert"
+			],
+			[
+				"m",
+				"margin"
+			],
+			[
+				"ecc",
+				"ecc-row-spacer	ECC row spacer"
+			],
+			[
+				"ecc-",
+				"ecc-row-spacer	ECC row spacer"
+			],
+			[
+				"s",
+				"span	Tag"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"bs3-co",
+				"bs3-col:6	bs3-col-6"
+			],
+			[
+				"bs3-",
+				"bs3-row	bs3-row"
+			],
+			[
+				"robo",
+				"robots"
+			],
+			[
+				"bs3-in",
+				"bs3-input:text	bs3-input-text"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "instructor-search-with-results.html",
+			"settings":
+			{
+				"buffer_size": 59389,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"selected_items":
+		[
+			[
+				"gist",
+				"Gist: Create Private Gist"
+			],
+			[
+				"htmlbe",
+				"HTMLBeautify"
+			],
+			[
+				"trimmer",
+				"Trimmer: Collapse empty lines."
+			],
+			[
+				"trim",
+				"Trimmer: Remove blank spaces."
+			],
+			[
+				"boo",
+				"SublimeBookmarks: Goto Bookmark"
+			],
+			[
+				"book",
+				"SublimeBookmarks: Goto Bookmark"
+			],
+			[
+				"comment li",
+				"Snippet: comment-html-line"
+			],
+			[
+				"bookmar",
+				"SublimeBookmarks: Toggle Current Line"
+			],
+			[
+				"COMMENT HTML",
+				"Snippet: comment-html-line"
+			],
+			[
+				"COMMENT",
+				"Snippet: comment-html-line"
+			],
+			[
+				"doct",
+				"Snippet: doctype"
+			],
+			[
+				"htmlbea",
+				"HTMLBeautify"
+			],
+			[
+				"comment",
+				"Snippet: Comment - Single-line block comment"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"trimme",
+				"Trimmer: Trim leading whitespace."
+			],
+			[
+				"trimm",
+				"Trimmer: Trim leading whitespace."
+			],
+			[
+				"timmer",
+				"Trimmer: Delete empty lines."
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"htmlb",
+				"HTMLBeautify"
+			],
+			[
+				"",
+				"BracketHighlighter: Enable Debug Mode"
+			],
+			[
+				"add t",
+				"Themr: Add current theme to favorites"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"the",
+				"Themr: Next theme"
+			],
+			[
+				"them",
+				"Themr: List themes"
+			],
+			[
+				"html",
+				"Snippet: bs3-html5-template"
+			],
+			[
+				"sor",
+				"Sort Lines"
+			],
+			[
+				"sort",
+				"Sort Lines"
+			],
+			[
+				"css",
+				"Sort Lines (Case Sensitive)"
+			],
+			[
+				"disc",
+				"Package Control: Discover Packages"
+			],
+			[
+				"COME",
+				"Snippet: Comment section header"
+			],
+			[
+				"ht",
+				"Snippet: bs3-html5-template"
+			],
+			[
+				"ecc in",
+				"Snippet: ECC input text"
+			],
+			[
+				"ecc hi",
+				"Snippet: ECC label hint"
+			],
+			[
+				"ecc dr",
+				"Snippet: ECC Dropdown"
+			],
+			[
+				"inpu",
+				"Snippet: bs3-input-checkbox"
+			],
+			[
+				"space",
+				"Snippet: ECC row spacer"
+			],
+			[
+				"in",
+				"Snippet: bs3-input-checkbox"
+			],
+			[
+				"text",
+				"Snippet: ECC text area"
+			],
+			[
+				"texta",
+				"Snippet: ECC text area"
+			],
+			[
+				"chec",
+				"Snippet: bs3-input-checkbox"
+			],
+			[
+				"check",
+				"Snippet: bs3-input-checkbox"
+			],
+			[
+				"ecc",
+				"Snippet: ECC nav widget"
+			],
+			[
+				"ecc inp",
+				"Snippet: ECC input text"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"comm",
+				"Snippet: Comment - Section footer comment"
+			],
+			[
+				"comme",
+				"Snippet: Comment - Block style comment"
+			],
+			[
+				"ecc he",
+				"Snippet: ECC content heading"
+			],
+			[
+				"ecc for",
+				"Snippet: ECC Form Shell"
+			],
+			[
+				"ecc ",
+				"Snippet: ECC Dropdown"
+			],
+			[
+				"make",
+				"SnippetMaker: Make Snippet"
+			],
+			[
+				"Snippet: ",
+				"Snippet: bs3-form-label"
+			],
+			[
+				"isnt",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 529.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"find",
+			"windows()",
+			"header.html",
+			"help",
+			"hello",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+			" import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/Prime/Copy/WebDev/Sites/ECC/v2",
+		"/Users/Prime/Copy/WebDev/Sites/ECC/v2/css",
+		"/Users/Prime/Copy/WebDev/Sites/ECC/v2/js",
+		"/Users/Prime/Copy/WebDev/Sites/ECC/v2/plugins/dataTables",
+		"/Users/Prime/Copy/WebDev/Sites/ECC/v2/plugins/dataTables/css",
+		"/Users/Prime/Copy/WebDev/Sites/ECC/v2/plugins/dataTables/js",
+		"/Users/Prime/Copy/WebDev/Sites/ECC/v2/shish-map",
+		"/Users/Prime/Copy/WebDev/Sites/ECC/v2/tclocator",
+		"/Users/Prime/Copy/WebDev/Sites/ECC/v2/tclocator/css",
+		"/Users/Prime/Copy/WebDev/Sites/ECC/v2/tclocator/js",
+		"/Users/Prime/Copy/WebDev/Sites/ECC/v2/tclocator/js/jPages",
+		"/Users/Prime/Copy/WebDev/Sites/ECC/v2/tclocator/js/jPages/js",
+		"/Users/Prime/Copy/WebDev/Sites/ECC/v2/tclocator/templates"
+	],
+	"file_history":
+	[
+		"/Users/Prime/Copy/WebDev/Sites/ECC/v2/css/style.css",
+		"/Users/Prime/Copy/WebDev/Sites/ECC/v2/shish-map/map.html",
+		"/Users/Prime/Copy/WebDev/Sites/ECC/v2/tclocator/results.xml",
+		"/Users/Prime/Copy/WebDev/gmap-responsive/js/ahamap.js",
+		"/Users/Prime/Copy/WebDev/Sites/ECC/v2/tclocator/locations.xml",
+		"/Users/Prime/Copy/WebDev/Sites/ECC/v2/tclocator/templates/infowindow-description.html",
+		"/Users/Prime/Copy/WebDev/Sites/ECC/v2/tclocator/templates/location-list-description.html",
+		"/Users/Prime/Copy/WebDev/Sites/ECC/v2/tclocator/jquery-ajax.html",
+		"/Users/Prime/Copy/WebDev/Sites/ECC/v2/tclocator/js/jquery.storelocator.js",
+		"/Users/Prime/Copy/WebDev/Sites/ECC/v2/tclocator/js/jquery.storelocator-copy.js",
+		"/Users/Prime/Copy/WebDev/Sites/ECC/v2/tclocator/css/map.css",
+		"/Users/Prime/Copy/WebDev/Sites/ECC/v2/tclocator/index.html",
+		"/Users/Prime/Copy/WebDev/Sites/ECC/v2/tclocator/dev-notes.txt",
+		"/Users/Prime/Copy/WebDev/Sites/ECC/v2/tclocator/templates/kml-infowindow-description.html",
+		"/Users/Prime/Copy/WebDev/Sites/ECC/v2/tclocator/js/jquery.storelocator-copy2.js",
+		"/Users/Prime/Library/Application Support/Sublime Text 3/Packages/User/doctype.sublime-snippet",
+		"/Users/Prime/Copy/WebDev/Sites/ECC/v2/contact-us.html",
+		"/Users/Prime/Copy/WebDev/Sites/ECC/v2/registration-thankyou-fixed.html",
+		"/Users/Prime/Library/Application Support/Sublime Text 3/Packages/User/footer-aha-script.sublime-snippet",
+		"/Users/Prime/Library/Application Support/Sublime Text 3/Packages/User/comment-html-line.sublime-snippet",
+		"/Users/Prime/Copy/WebDev/Sites/ECC/v2/contact-shish.html",
+		"/Users/Prime/Copy/WebDev/Sites/ECC/v2/header.html",
+		"/Users/Prime/Library/Application Support/Sublime Text 3/Packages/User/Gist.sublime-settings",
+		"/var/folders/gr/ndfmfs9s4n3__hk458y6hr9w0000gn/T/setting-datatables-table-sorting.js",
+		"/Users/Prime/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/Prime/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/Prime/Library/Application Support/Sublime Text 3/Packages/Themr/ThemrFavorites.sublime-settings",
+		"/Users/Prime/Library/Application Support/Sublime Text 3/Packages/User/bs3-table-responsive-striped.sublime-snippet",
+		"/Users/Prime/Copy/WebDev/Sites/ECC/v2/instructor-search-with-results.html",
+		"/Users/Prime/Copy/WebDev/Sites/ECC/v2/change-log.txt",
+		"/Users/Prime/Copy/WebDev/Sites/ECC/v2/index.html",
+		"/Users/Prime/Copy/WebDev/Sites/ECC/v2/header-test.html",
+		"/Users/Prime/Copy/WebDev/Sites/ECC/v2/edit-profile.html",
+		"/Users/Prime/Copy/WebDev/Sites/ECC/v2/edit-profile-with-sidebar.html",
+		"/Users/Prime/Copy/WebDev/Sites/ECC/v2/edit-profile-personal-info.html",
+		"/Users/Prime/Copy/WebDev/Sites/ECC/v2/edit-profile-alignment.html",
+		"/Users/Prime/Copy/WebDev/Sites/ECC/v2/updatedpages-jason/profile-edit-user-agreement.html",
+		"/Users/Prime/Copy/WebDev/Sites/ECC/v2/updatedpages-jason/profile-edit-personal.html",
+		"/Users/Prime/Copy/WebDev/Sites/ECC/v2/updatedpages-jason/profile-edit-alignment.html",
+		"/Users/Prime/Copy/WebDev/Sites/ECC/v2/updatedpages-jason/profile-edit-course-completions.html",
+		"/Users/Prime/Copy/WebDev/Sites/ECC/v2/updatedpages-jason/profile-edit-alignment-with-modal.html",
+		"/Users/Prime/Copy/WebDev/Sites/ECC/v2/updatedpages-jason/profile-edit-account.html",
+		"/Users/Prime/Copy/WebDev/Sites/ECC/v2/template-editprofile.html",
+		"/Users/Prime/Copy/WebDev/Sites/ECC/v2/template-col-03-sidebar-left-right.html",
+		"/Users/Prime/Copy/WebDev/Sites/ECC/v2/demo.html",
+		"/Users/Prime/Copy/WebDev/Sites/ECC/v2/template-col-02-sidebar-right.html",
+		"/Users/Prime/Library/Application Support/Sublime Text 3/Packages/User/cdn-font-awesome.sublime-snippet",
+		"/Users/Prime/Copy/WebDev/Sites/ECC/v2/instructor-search.html",
+		"/Users/Prime/Copy/WebDev/Sites/ECC/v2/layout.html",
+		"/Users/Prime/Copy/WebDev/Sites/ECC/v2/login.html",
+		"/Users/Prime/Copy/WebDev/Sites/ECC/v2/profile-edit-personal.html",
+		"/Users/Prime/Copy/WebDev/Sites/ECC/v2/sample-edit-profile.html",
+		"/Users/Prime/Copy/WebDev/Sites/ECC/v2/template-col-01.html",
+		"/Users/Prime/Copy/WebDev/Sites/ECC/v2/template-col-01-with-content.html",
+		"/Users/Prime/Copy/WebDev/Sites/ECC/v2/template-col-02-sidebar-left.html",
+		"/Users/Prime/Copy/WebDev/Sites/ECC/v2/jason.html",
+		"/Users/Prime/Library/Application Support/Sublime Text 3/Packages/User/hello.sublime-snippet",
+		"/Users/Prime/Library/Application Support/Sublime Text 3/Packages/User/ecc.sublime-completions",
+		"/Users/Prime/Library/Application Support/Sublime Text 3/Packages/User/ecc-form-shell-box.sublime-snippet",
+		"/Users/Prime/Library/Application Support/Sublime Text 3/Packages/User/ecc-input-label-error.sublime-snippet",
+		"/Users/Prime/Library/Application Support/Sublime Text 3/Packages/User/ecc-text-area.sublime-snippet",
+		"/Users/Prime/Library/Application Support/Sublime Text 3/Packages/User/ecc-dropdown-multiple.sublime-snippet",
+		"/Users/Prime/Library/Application Support/Sublime Text 3/Packages/User/ecc-form-submit.sublime-snippet",
+		"/Users/Prime/Library/Application Support/Sublime Text 3/Packages/User/ecc-nav-single-widget.sublime-snippet",
+		"/Users/Prime/Library/Application Support/Sublime Text 3/Packages/User/ecc-slide-toggle-alert-panel.sublime-snippet",
+		"/Users/Prime/Copy/WebDev/Sites/ECC/v2/js/aha-header-external-responsive.js",
+		"/Users/Prime/Copy/WebDev/Sites/ECC/v2/edit-profile-alignment2.html",
+		"/Users/Prime/Library/Application Support/Sublime Text 3/Packages/User/ecc-divider.sublime-snippet"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"select",
+			".jsp",
+			"icon",
+			"originMarker",
+			"icon",
+			"storeLimit",
+			"maxDistance",
+			"radius",
+			"begin_mapping",
+			"begin_mapping()",
+			"begin_mapping();",
+			"get_form_values",
+			"submit",
+			"input",
+			"google.map",
+			"begin_mapping",
+			"get_form_values",
+			"autoCom",
+			"listClick",
+			"infowindow",
+			"create_infowindow",
+			"template",
+			"modal",
+			"define_location_data",
+			"overflow",
+			"location",
+			"loc-name",
+			"infowindow",
+			"find(",
+			"formattedAddress",
+			"window",
+			"xml",
+			"listDiv",
+			"options",
+			"map.opt",
+			"map.optoin",
+			"mapping(",
+			"begin_mapping()",
+			"begin_mapping",
+			"form",
+			"get value",
+			"map",
+			"datalocation",
+			"col-sm-11",
+			"round",
+			"tabs",
+			"style",
+			"bls",
+			"left-side",
+			"page ",
+			"sidebar",
+			"<div class=\"page type-page col-sm-8\">",
+			"<div class=\"sidebar left-sidebar col-sm-4\">",
+			"sidebar",
+			"<link rel=\"stylesheet\" id=\"fontawesome-css\" href=\"http://static.heart.org/ahaanywhere_dev/v2/css/font-awesome.min.css\" type=\"text/css\" media=\"all\">",
+			"sidebar",
+			"fade",
+			"@media",
+			"@medai",
+			"body",
+			"btn-danger",
+			"sm-4",
+			"sm-8",
+			"table",
+			"jquery",
+			"divider",
+			"@media",
+			"media",
+			".menu"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"<div class=\"page type-page col-sm-9\">",
+			"<div class=\"sidebar left-sidebar col-sm-3 col-xs-12 \">",
+			"<!-- CDN Font Awesome -->\n    <link href=\"http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css\" rel=\"stylesheet\">"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "instructor-search-with-results.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 59389,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								37335,
+								37335
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 10496.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "ECCV2.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 331.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

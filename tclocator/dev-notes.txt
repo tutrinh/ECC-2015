@@ -1,0 +1,22 @@
+dev-notes.txt
+date: 10/2014
+project: tclocator google map api
+=======================================================
+
+Sample of call to backend server to fetch data
+
+http://natvdev07:9080/AHAECC/findacourseclassroom/eccTraningCenter_Site.jsp?address=Dallas,%20TX%2075231,%20United%20States&radius=1000&courseId=1-3QZPQA&startDate=&endDate=
+
+
+
+Map
+
+http://natvdev07:9080/AHAECC/classConnector.jsp?pid=ahaecc.classconnector.home
+
+http://natvdev07:9080/AHAECC/classConnector.jsp?pid=ahaecc.classconnector.home
+
+
+
+
+API
+<script src="https://maps.google.com/maps/api/js?libraries=places&sensor=false&key=AIzaSyD85E-vZK8KB8yfuXs_3Fg-pQzrkbXod6k&hl=en&v=3&region=US" type="text/javascript"></script>

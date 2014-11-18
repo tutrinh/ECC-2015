@@ -1,0 +1,146 @@
+#top-header {
+    border-bottom: 1px solid #E4E4E4;
+}
+
+
+#top-header a:hover {
+    color: #ed1b24;
+}
+
+#top-header .container {
+    padding-left: 0px;
+    padding-right: 0px;
+    max-width: 100%;
+}
+
+#top-header .th-left,#top-header .th-right {
+    /*padding-left: 15px;*/
+    box-sizing: border-box;
+    line-height: 24px;
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+
+ ul.menu {
+    list-style: none outside none;
+    margin: 0px 0px 20px;
+    padding: 0px;
+}
+
+nav.std-menu .menu {
+    height: auto;
+    margin: 0px;
+    position: relative;
+    padding: 0px;
+}
+
+nav.std-menu .menu li {
+    position: relative;
+    display: inline-block;
+    float: left;
+    /*font-size: 14px;*/
+    /*margin: 8px 0px;*/
+}
+
+nav.ahamenu .menu li {
+    border-right: 1px solid #EAEAEA;
+    /*font-size: 11px;*/
+    margin: 0px;
+    /*padding: 8px 0px;*/
+}
+
+nav.std-menu .menu li:first-child {
+    background: none repeat scroll 0% 0% transparent;
+}
+
+nav.ahamenu .menu li:first-child {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+nav.std-menu .menu > li:first-child:before {
+    display: none;
+}
+
+nav .menu > li:before {
+    background: none repeat scroll 0% 0% #ED1B24;
+}
+
+
+ul.menu li.heart_logo {
+}
+
+
+nav .menu li {
+text-transform: uppercase;
+}
+nav.std-menu .menu li {
+    /*font-size: 12px;*/
+    padding: 8px 0px;
+}
+
+nav.std-menu .menu li > a {
+    text-decoration: none;
+    /*padding: 2px 0px;*/
+    margin: 0px 10px;
+    display: block;
+    white-space: nowrap;
+    background: none repeat scroll 0% 0% transparent;
+}
+
+
+#top-header a {
+color: #5D5D5D;
+}
+
+/*nav.std-menu .menu > li:first-child > a {*/
+/*padding-left: 0px;*/
+/*}*/
+
+
+.menu .heart_logo a img {
+    width: 59px;
+    height: 40px;
+}
+
+
+/*#top-header .th-right {*/
+    /*padding-right: 10px;*/
+    /*box-sizing: border-box;*/
+    /*margin-bottom: 0px;*/
+/*}*/
+
+
+
+#top-header .th-right > nav {
+    float: right;
+    margin-right: -8px;
+}
+
+.th-right nav.std-menu .menu li {
+    /*margin: 0px;*/
+}
+
+/*#top-header .th-right > nav .menu li, .ajax-search-wrap:after {*/
+    /*border-bottom-color: #E4E4E4;*/
+/*}*/
+
+#top-header .th-right > nav .menu li {
+    /*font-size: 12px;*/
+    border-left: 1px solid #E4E4E4;
+}
+
+/*.th-right nav.std-menu .menu li a {*/
+    /*padding: 10px 0px;*/
+/*}*/
+
+
+#top-header .th-left {
+    float: left;
+}
+
+#top-header .th-right {
+    float: right;
+}
+

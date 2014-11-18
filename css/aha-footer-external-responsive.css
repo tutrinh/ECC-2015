@@ -1,0 +1,34 @@
+
+#footer-widgets .widget {
+    padding-bottom: 30px;
+}
+
+.widget ul {
+    margin: 0;
+    list-style: none;
+}
+
+.recent-post figure, span.highlighted, span.dropcap4, .loved-item:hover .loved-count, .flickr-widget li, .portfolio-grid li, input[type="submit"], .wpcf7 input.wpcf7-submit[type="submit"], .gform_wrapper input[type="submit"], .mymail-form input[type="submit"], .woocommerce-page nav.woocommerce-pagination ul li span.current, .woocommerce nav.woocommerce-pagination ul li span.current, figcaption .product-added, .woocommerce .wc-new-badge, .yith-wcwl-wishlistexistsbrowse a, .yith-wcwl-wishlistaddedbrowse a, .woocommerce .widget_layered_nav ul li.chosen > *, .woocommerce .widget_layered_nav_filters ul li a, .sticky-post-icon, .fw-video-close:hover {
+    background-color: #ed1b24 !important;
+    color: #ffffff;
+}
+
+.portfolio-grid li {
+    float: left;
+    height: 75px;
+    position: relative;
+    margin: 0 12px 12px 0!important;
+    background-image: url(../img/crease.svg);
+    background-size: 100% 100%;
+    background-position: center center;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+}
+

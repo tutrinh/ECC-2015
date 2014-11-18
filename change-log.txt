@@ -1,0 +1,166 @@
+ECC 2015 CHANGE LOG
+==============================================================================
+
+Date: 11/13/2014
+
+1. Remove in the head and header
+	A.   
+    <script type="text/javascript">
+        /* <![CDATA[ */
+        var SF_Opts = {
+                    "push_content": "push",
+                    "sidebar_pos": "left",
+                    "width_panel_1": "250",
+                    "width_panel_2": "200",
+                    "width_panel_3": "200",
+                    "width_panel_4": "175",
+                    "base_color": "#101010",
+                    "opening_type": "click",
+                    "sub_opening_type": "click",
+                    "label": "none",
+                    "label_top": "25px",
+                    "label_size": "1x",
+                    "label_vis": "hidden",
+                    "bg": "none",
+                    "menu": "190",
+                    "togglers": ".aha_logo",
+                    "subMenuSupport": "yes",
+                    "subMenuSelector": "sub-menu, children",
+                    "activeClassSelector": "current-menu-item",
+                    "allowedTags": "DIV, NAV, UL, OL, LI, A, P, H1, H2, H3, H4, SPAN"};
+        /* ]]> */
+    </script>
+   
+
+    B.
+        <div id="sf-sidebar" class="sf-underline-1 sf-underline-left">
+            <div class="sf-scroll-wrapper">
+                <div class="sf-scroll">
+                    <div class="sf-logo">
+                        <a href="/">
+                            <img src="img/AHALogo_wht.png" alt="">
+                        </a>
+                        <form role="search" method="get" class="search-form" action="/">
+                            <label>
+                                <input type="search" class="search-field" placeholder="" value="" name="s">
+                            </label>
+                            <input type="submit" class="search-submit" value="Search">
+                        </form>
+                    </div>
+                    <nav class="sf-nav">
+                        <!--Sub-Nav-->
+                        <ul class="sf-menu-level-0">
+                            <li>
+                                <a href="#">
+                                    <span>Getting Healthy</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span>Conditions</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span>Healthcare / Research</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span>Caregiver</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span>Educator</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span>CPR &amp; ECC</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span>Shop</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span>Causes</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span>Advocate</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span>Giving</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span>News</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <ul class="sf-social">
+                    </ul>
+                </div>
+            </div>
+            <div class="sf-sidebar-bg">
+            </div>
+            <div class="sf-rollback sf-color1 sf-label-hidden sf-label-none sf-label-text">
+                <div class="sf-navicon-button x">
+                    <div class="sf-navicon">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="sf-overlay-wrapper">
+            <div id="sf-overlay">
+            </div>
+        </div>
+    <!--[if lt IE 9]>
+        <script data-cfasync="false" src="js/respond.min.js">
+        </script>
+        <script data-cfasync="false" src="js/html5shiv.js">
+        </script>
+        <script data-cfasync="false"
+                src="js/excanvas.compiled.js">
+        </script>
+    <![endif]-->
+
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+Date: 11/6/2014
+
+1. Changed Bootstrap css link
+	1.A OLD <link rel="stylesheet" id="bootstrap-css" href="http://static.heart.org/ahaanywhere_dev/v2/css/bootstrap.min.css" type="text/css" media="all"> 
+	1.B NEW <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+2. Change Bootstrap js link 
+	2.A OLD <script type="text/javascript" src="http://static.heart.org/ahaanywhere_dev/v2/js/bootstrap.min.js"></script>
+	2.B NEW <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+Date: 10/22/2014
+
+1. Added doctype at begin of page
+	1.A <!doctype html>
+2. Changed to CDN for Font Awesome
+	2.A <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+3. Change the sidebar from col-sm-4 > col-sm-3
+	3.A  <div class="sidebar left-sidebar col-sm-3 col-xs-12 ">
+4. Change page col-sm-8 > col-sm-9, more room for page content and reduce the side width for extra spaces
+	4.A <div class="page type-page col-sm-9">
+
+
+
+
